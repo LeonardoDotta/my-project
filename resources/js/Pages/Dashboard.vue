@@ -1,12 +1,6 @@
 <template>
-    <div>
-        <h1>Home Page</h1>
-        <p>Bem-vindo à página inicial!</p>
+   <div>
+        <q-btn label="Submit" type="submit" color="primary"/>
+        <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
     </div>
 </template>
-
-<script>
-export default {
-    name: 'Dashboard',
-};
-</script>
