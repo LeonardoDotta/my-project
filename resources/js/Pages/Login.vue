@@ -8,7 +8,6 @@ export default {
     const name = ref(null)
     const age = ref(null)
     const accept = ref(false)
-    const router = useRouter();
 
     return {
       name,
@@ -16,19 +15,13 @@ export default {
       accept,
 
       onSubmit() {
-        if (accept.value !== true) {
-          Notify.create({
-          type: "warning",
-          message: "Please accept the license and terms",
-          });
-        } else {
-          Notify.create({
-          type: "warning",
-          message: "Form submitted",
-        }); 
-        }
+        Notify.create({
+          type: accept.value !== true ? "negative" : "positive",
+          message: accept.value !== true 
+            ? "Please accept the license and terms" 
+            : "Form submitted",
+        });
       },
-
       onReset () {
         name.value = null
         age.value = null
