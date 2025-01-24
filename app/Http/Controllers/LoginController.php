@@ -4,60 +4,52 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use App\Services\LoginService;
 
 class LoginController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    protected $loginService;
+
+    public function __construct(LoginService $loginService)
+    {
+        $this->loginService = $loginService;
+    }
+
     public function index()
     {
         return Inertia::render('Login');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
+    public function store(LoginRequest $request)
     {
-        //
+        try {
+            $user = $this->loginService->authenticate($request->only('email', 'password'));
+            return redirect()->route('dashboard')->with('success', 'Login realizado com sucesso!');
+        } catch (\Exception $e) {
+            return back()->withErrors(['error' => $e->getMessage()]);
+        }
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
     public function edit(string $id)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
     public function update(Request $request, string $id)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(string $id)
     {
         //
