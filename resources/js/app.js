@@ -1,7 +1,7 @@
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-import { Quasar } from 'quasar'
+import { Quasar, Notify } from 'quasar'
 import '@quasar/extras/roboto-font/roboto-font.css'
 import '@quasar/extras/material-icons/material-icons.css'
 import 'quasar/dist/quasar.css'
@@ -16,7 +16,15 @@ createInertiaApp({
         createApp({ render: () => h(App, props) })
             .use(plugin)
             .use(Quasar,{
-                plugins:{},
+                plugins:{
+                    Notify
+                },
+                config:{
+                    notify:{
+                        position:'bottom',
+                        timeout:2500
+                    }
+                }
             })
             .mount(el);
     },
