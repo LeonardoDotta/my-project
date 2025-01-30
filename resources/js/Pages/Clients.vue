@@ -10,9 +10,10 @@ import { storeToRefs } from 'pinia'
 
 const store = useClientsStore();
 const { name, address, phone } = storeToRefs(store)
-name
-address
-phone
+
+const saveClient = () => {
+  store.addClient();
+};
 
 type Column = {
     name: string;
@@ -83,7 +84,7 @@ const pagination = ref({
         <q-input filled v-model="name" label="Name" placeholder="Name" class="inputs" />
         <q-input filled v-model="phone" label="Phone" placeholder="Phone" class="inputs" />
         <q-input filled v-model="address" label="Address" placeholder="Address" class="inputs" />
-        <q-btn color="primary" label="Create Client" class="create_client_button" />
+        <q-btn color="primary" label="Create Client" class="create_client_button" @click="saveClient" />
     </div>
     <div class="q-pa-md">
         <q-table class="my-sticky-virtscroll-table" virtual-scroll flat bordered v-model:pagination="pagination"
