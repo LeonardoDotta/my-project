@@ -4,13 +4,11 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ClientsController;
 
 Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-Route::get('teste1', function () {
-    return Inertia::render('Teste1');
-});
+Route::get('/clients', [ClientsController::class, 'index'])->name('clients');
 
 Route::get('teste2', function () {
     return Inertia::render('Teste2');
