@@ -19,7 +19,23 @@ class ClientsController extends Controller
 
     public function store(Request $request)
     {
-        //
+        dd($request->all());
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'phone' => 'required|string|max:20',
+            'address' => 'required|string',
+        ]);
+
+        $client = Client::create([
+            'name' => $request->name,
+            'phone' => $request->phone,
+            'address' => $request->address,
+        ]);
+
+        return response()->json([
+            'message' => 'Cliente criado com sucesso!',
+            'client' => $client
+        ], 201);
     }
 
     public function show(string $id)
