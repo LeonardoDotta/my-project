@@ -2,12 +2,12 @@
 import { ref } from 'vue'
 
 export default {
-  setup () {
+  setup() {
     const leftDrawerOpen = ref(false)
 
     return {
       leftDrawerOpen,
-      toggleLeftDrawer () {
+      toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value
       }
     }
@@ -33,22 +33,22 @@ export default {
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
       <div class="div_sidebar">
         <div class="div_buttons">
-        <button onclick="location.href='/teste1'" class="buttons">
-            <router-link to="/teste1">Teste 1</router-link>
-        </button>
-        <button onclick="location.href='/teste2'" class="buttons">
-            <router-link to="/teste2">Teste 2</router-link>
-        </button>
-        <button onclick="location.href='/teste3'" class="buttons">
-            <router-link to="/teste3">Teste 3</router-link>
-        </button>
+          <button onclick="location.href='clients'" class="buttons">
+            Clientes
+          </button>
+          <button onclick="location.href='/teste2'" class="buttons">
+            Teste 2
+          </button>
+          <button onclick="location.href='/teste3'" class="buttons">
+            Teste 3
+          </button>
         </div>
         <div class="div_buttons">
-        <button onclick="location.href='/logout'" class="buttons">
-            <router-link to="/logout">Logout</router-link>
-        </button>
+          <button onclick="location.href='/logout'" class="buttons">
+            Logout
+          </button>
         </div>
-      </div> 
+      </div>
     </q-drawer>
 
     <q-page-container>
@@ -96,4 +96,3 @@ export default {
   justify-content: center;
 }
 </style>
-  
