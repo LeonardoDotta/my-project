@@ -4,29 +4,32 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use App\Models\Clients;
+use Illuminate\Support\Facades\DB;
 
 class ClientsController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        $clients = Clients::all();
+
         return Inertia::render('Clients');
     }
 
     public function create()
     {
-        //
+        return Inertia::render('ClientsCreate');
     }
 
     public function store(Request $request)
     {
-        dd($request->all());
         $request->validate([
             'name' => 'required|string|max:255',
             'phone' => 'required|string|max:20',
             'address' => 'required|string',
         ]);
 
-        $client = Client::create([
+        $client = Clients::create([
             'name' => $request->name,
             'phone' => $request->phone,
             'address' => $request->address,

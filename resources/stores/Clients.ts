@@ -18,7 +18,7 @@ export const useClientsStore = defineStore('clients', {
     },
     async sendClientToServer(clientData: { name: string; phone: string; address: string }) {
       try {
-        const response = await axios.post('/clients', clientData, {
+        const response = await axios.post('http://localhost:8000/clients', clientData, {
           headers: {
             'Content-Type': 'application/json',
           }
@@ -26,6 +26,14 @@ export const useClientsStore = defineStore('clients', {
         console.log('Cliente salvo com sucesso:', response.data);
       } catch (error) {
         console.error('Erro ao enviar cliente:', error);
+      }
+    },
+    async fetchClients() {
+      try {
+        const response = await axios.get('http://localhost:8000/clients');
+        this.clients = response.data;
+      } catch (error) {
+        console.error('Erro ao buscar clientes:', error);
       }
     }
   }
