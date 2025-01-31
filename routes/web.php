@@ -10,6 +10,7 @@ Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/clients', [ClientsController::class, 'index'])->name('clients');
 Route::post('/clients', [ClientsController::class, 'store']);
+Route::get('/clients/create', [ClientsController::class, 'create'])->name('clients.create');
 
 Route::get('teste2', function () {
     return Inertia::render('Teste2');
