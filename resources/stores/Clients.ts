@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { router } from '@inertiajs/vue3'
 import axios from 'axios'
 
 export const useClientsStore = defineStore('clients', {
@@ -10,8 +11,14 @@ export const useClientsStore = defineStore('clients', {
   }),
   actions: {
     addClient() {
-      this.clients.push({ name: this.name, phone: this.phone, address: this.address });
-      this.sendClientToServer({ name: this.name, phone: this.phone, address: this.address });
+      const newClient = { name: this.name, phone: this.phone, address: this.address };
+      
+      this.clients.push(newClient);
+      this.sendClientToServer(newClient)
+        .then(() => {
+          router.visit('/clients'); 
+        });
+    
       this.name = '';
       this.phone = '';
       this.address = '';

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Inertia\Response;
 use App\Models\Clients;
 use Illuminate\Support\Facades\DB;
 
@@ -12,8 +13,9 @@ class ClientsController extends Controller
     public function index(Request $request)
     {
         $clients = Clients::all();
-
-        return Inertia::render('Clients');
+        return Inertia::render('Clients', [
+            'clients' => $clients,
+        ]);
     }
 
     public function create()
@@ -46,9 +48,9 @@ class ClientsController extends Controller
         //
     }
 
-    public function edit(string $id)
+    public function edit(Request $request)
     {
-        //
+        return Inertia::render('ClientsEdit');
     }
 
     public function update(Request $request, string $id)
