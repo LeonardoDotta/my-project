@@ -10,7 +10,7 @@ const clientsStore = useClientsStore();
         <q-input filled v-model="clientsStore.name" label="Name" placeholder="Name" class="inputs" />
         <q-input filled v-model="clientsStore.phone" label="Phone" placeholder="Phone" class="inputs" />
         <q-input filled v-model="clientsStore.address" label="Address" placeholder="Address" class="inputs" />
-        <q-btn color="primary" label="Create Client" class="create_client_button" @click="clientsStore.addClient" />
+        <q-btn color="primary" label="Update Client" class="create_client_button" @click="clientsStore.addClient" />
     </div>
 </template>
 
