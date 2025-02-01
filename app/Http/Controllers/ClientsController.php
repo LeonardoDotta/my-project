@@ -58,8 +58,16 @@ class ClientsController extends Controller
         //
     }
 
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        $client = Clients::find($id);
+
+        if (!$client) {
+            return response()->json(['message' => 'Cliente não encontrado!'], 404);
+        }
+
+        $client->delete(); // Soft delete
+
+        return response()->json(['message' => 'Cliente marcado como deletado!'], 200);
     }
 }
