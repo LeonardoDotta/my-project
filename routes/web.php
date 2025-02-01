@@ -10,6 +10,7 @@ Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/clients', [ClientsController::class, 'index'])->name('clients');
 Route::post('/clients', [ClientsController::class, 'store']);
+Route::delete('/clients/{id}', [ClientsController::class, 'destroy']);
 Route::get('/clients/create', [ClientsController::class, 'create'])->name('clients.create');
 Route::get('/clients/edit', [ClientsController::class, 'edit'])->name('clients.edit');
 
