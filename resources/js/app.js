@@ -6,6 +6,8 @@ import { Quasar, Notify } from 'quasar'
 import '@quasar/extras/roboto-font/roboto-font.css'
 import '@quasar/extras/material-icons/material-icons.css'
 import 'quasar/dist/quasar.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const pinia = createPinia()
 
