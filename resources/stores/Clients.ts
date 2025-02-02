@@ -42,6 +42,15 @@ export const useClientsStore = defineStore('clients', {
       } catch (error) {
         console.error('Erro ao buscar clientes:', error);
       }
+    },
+    async fetchClientById(id: string) {
+      try {
+        const response = await axios.get(`http://localhost:8000/clients/${id}`);
+        return response.data;
+      } catch (error) {
+        console.error('Erro ao buscar cliente:', error);
+        return null;
+      }
     }
   }
 })

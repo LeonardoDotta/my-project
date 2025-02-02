@@ -48,14 +48,24 @@ class ClientsController extends Controller
         //
     }
 
-    public function edit(Request $request)
+    public function edit(Request $request, string $id)
     {
-        return Inertia::render('ClientsEdit');
+        $client = Client::findOrFail($id);
+        return Inertia::render('ClientsEdit', [
+            'clientId' => $client->id, 
+        ]);
     }
 
     public function update(Request $request, string $id)
     {
-        //
+        $client = Client::findOrFail($id);
+        $client->update($request->validate([
+            'name' => 'required|string|max:255',
+            'phone' => 'nullable|string|max:20',
+            'address' => 'nullable|string|max:255'
+        ]));
+
+        return redirect()->route('clients.index')->with('success', 'Cliente atualizado com sucesso!');
     }
 
     public function destroy($id)
