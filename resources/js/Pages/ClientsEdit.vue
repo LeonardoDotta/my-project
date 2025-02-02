@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { useClientsStore } from '../../stores/Clients'
+import { useRoute } from 'vue-router'
 
 const clientsStore = useClientsStore();
+const route = useRoute();
 
 </script>
 
