@@ -1,18 +1,22 @@
 <script setup lang="ts">
 import { useClientsStore } from '../../stores/Clients'
-import { useRoute } from 'vue-router'
+import { defineProps } from 'vue'
 
 const clientsStore = useClientsStore();
-const route = useRoute();
 
+const props = defineProps({
+    client: Object
+});
+
+clientsStore.initializeForm(props.client);
 </script>
 
 <template>
     <div class="div_inputs">
-        <q-input filled v-model="clientsStore.name" label="Name" placeholder="Name" class="inputs" />
-        <q-input filled v-model="clientsStore.phone" label="Phone" placeholder="Phone" class="inputs" />
-        <q-input filled v-model="clientsStore.address" label="Address" placeholder="Address" class="inputs" />
-        <q-btn color="primary" label="Update Client" class="create_client_button" @click="clientsStore.addClient" />
+        <q-input filled v-model="clientsStore.form.name" label="Name" placeholder="Name" class="inputs" />
+        <q-input filled v-model="clientsStore.form.phone" label="Phone" placeholder="Phone" class="inputs" />
+        <q-input filled v-model="clientsStore.form.address" label="Address" placeholder="Address" class="inputs" />
+        <q-btn color="primary" label="Update Client" class="create_client_button"  @click="clientsStore.updateClient(clientsStore.form.id)"  />
     </div>
 </template>
 

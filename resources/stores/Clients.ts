@@ -4,16 +4,25 @@ import axios from 'axios'
 
 export const useClientsStore = defineStore('clients', {
   state: () => ({
-    name: '',
-    phone: '',
-    address: '',
-    clients: [] as Array<{ name: string, phone: string, address: string }>,
+    form: {
+      name: '',
+      phone: '',
+      address: '',
+      clients: [] as Array<{ name: string, phone: string, address: string }>,
+    },
   }),
   actions: {
+    initializeForm(data: Record<string, string>) {
+      this.form = {
+        ...this.form,
+        ...data, 
+        clients: this.form.clients || [],
+      };
+    },
     addClient() {
-      const newClient = { name: this.name, phone: this.phone, address: this.address };
+      const newClient = { name: this.form.name, phone: this.form.phone, address: this.form.address };
       
-      this.clients.push(newClient);
+      this.form.clients.push(newClient);
       this.sendClientToServer(newClient)
         .then(() => {
           router.visit('/clients'); 
