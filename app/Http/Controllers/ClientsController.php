@@ -50,22 +50,22 @@ class ClientsController extends Controller
 
     public function edit(Request $request, string $id)
     {
-        $client = Client::findOrFail($id);
+        $client = Clients::findOrFail($id);
         return Inertia::render('ClientsEdit', [
-            'clientId' => $client->id, 
+            'client' => $client,
         ]);
     }
 
     public function update(Request $request, string $id)
     {
-        $client = Client::findOrFail($id);
+        $client = Clients::findOrFail($id);
         $client->update($request->validate([
             'name' => 'required|string|max:255',
             'phone' => 'nullable|string|max:20',
             'address' => 'nullable|string|max:255'
         ]));
 
-        return redirect()->route('clients.index')->with('success', 'Cliente atualizado com sucesso!');
+        return redirect()->route('clients')->with('success', 'Cliente atualizado com sucesso!');
     }
 
     public function destroy($id)
@@ -76,7 +76,7 @@ class ClientsController extends Controller
             return response()->json(['message' => 'Cliente não encontrado!'], 404);
         }
 
-        $client->delete(); // Soft delete
+        $client->delete();
 
         return response()->json(['message' => 'Cliente marcado como deletado!'], 200);
     }
