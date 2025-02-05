@@ -13,6 +13,7 @@ Route::post('/clients', [ClientsController::class, 'store']);
 Route::delete('/clients/{id}', [ClientsController::class, 'destroy']);
 Route::get('/clients/create', [ClientsController::class, 'create'])->name('clients.create');
 Route::get('/clients/{id}/edit', [ClientsController::class, 'edit'])->name('clients.edit');
+Route::put('/clients/{id}', [ClientsController::class, 'update']);
 
 Route::get('teste2', function () {
     return Inertia::render('Teste2');

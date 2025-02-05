@@ -58,14 +58,13 @@ class ClientsController extends Controller
 
     public function update(Request $request, string $id)
     {
-        $client = Clients::findOrFail($id);
-        $client->update($request->validate([
-            'name' => 'required|string|max:255',
-            'phone' => 'nullable|string|max:20',
-            'address' => 'nullable|string|max:255'
-        ]));
-
-        return redirect()->route('clients')->with('success', 'Cliente atualizado com sucesso!');
+        try {
+            $client = Client::findOrFail($id); 
+            $client->update($request->all());  
+            return response()->json(['message' => 'Cliente atualizado com sucesso', 'client' => $client], 200);
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Erro ao atualizar cliente', 'message' => $e->getMessage()], 500);
+        }
     }
 
     public function destroy($id)

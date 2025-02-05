@@ -8,7 +8,7 @@ const props = defineProps({
     client: Object
 });
 
-clientsStore.initializeForm(props.client);
+clientsStore.initializeForm({...props.client, _method: 'put'});
 </script>
 
 <template>
@@ -16,7 +16,12 @@ clientsStore.initializeForm(props.client);
         <q-input filled v-model="clientsStore.form.name" label="Name" placeholder="Name" class="inputs" />
         <q-input filled v-model="clientsStore.form.phone" label="Phone" placeholder="Phone" class="inputs" />
         <q-input filled v-model="clientsStore.form.address" label="Address" placeholder="Address" class="inputs" />
-        <q-btn color="primary" label="Update Client" class="create_client_button"  @click="clientsStore.updateClient(clientsStore.form.id)"  />
+        <q-btn 
+            color="primary" 
+            label="clientsStore.form.id"
+            class="create_client_button"  
+            @click="clientsStore.updateClient()" 
+        />
     </div>
 </template>
 
