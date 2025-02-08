@@ -1,0 +1,2907 @@
+{ 
+  "wa_contacts": [
+    {
+      "FN": "Paulinho",
+      "TEL": "+55 19 99588-0052"
+    },
+    {
+      "FN": "Paulinho",
+      "TEL": "+55 19 99408-6006"
+    },
+    {
+      "FN": "Gui",
+      "TEL": "+55 16 99264-8691"
+    },
+    {
+      "FN": "Gui",
+      "TEL": "+55 16 99770-6789"
+    },
+    {
+      "FN": "Fábio Gomes",
+      "TEL": "92991395707"
+    },
+    {
+      "FN": "Robert/Holanda",
+      "TEL": "+31620027740"
+    },
+    {
+      "FN": "Yuri",
+      "TEL": "+55 16 98169-9737"
+    },
+    {
+      "FN": "Moab",
+      "TEL": "+55 16 99144-4894"
+    },
+    {
+      "FN": "Mário Sup. Circuito",
+      "TEL": "+5516981159082"
+    },
+    {
+      "FN": "Grejo",
+      "TEL": "+55 16 99792-0692"
+    },
+    {
+      "FN": "Ponto Frio",
+      "TEL": "01633628700"
+    },
+    {
+      "FN": "Pepê",
+      "TEL": "+55 16 99274-2633"
+    },
+    {
+      "FN": "Maruan",
+      "TEL": "+55 16 99732-1690"
+    },
+    {
+      "FN": "Aline Formaziero",
+      "TEL": "+55 16 99242-6870"
+    },
+    {
+      "FN": "Tia Celi",
+      "TEL": "+55 16 99601-2004"
+    },
+    {
+      "FN": "Carol",
+      "TEL": ["+55 16 99189-7655", "+55 16 99315-8581"]
+    },
+    {
+      "FN": "Moisés Embaré",
+      "TEL": "+55 16 99262-6002"
+    },
+    {
+      "FN": "Fioratti",
+      "TEL": "+55 16 99402-6210"
+    },
+    {
+      "FN": "Aline",
+      "TEL": ["+55 19 98985-2266", "+55 19 99288-9830"]
+    },
+    {
+      "FN": "Arnoldo",
+      "TEL": "997034471"
+    },
+    {
+      "FN": "Felipe Corradini",
+      "TEL": "+55 16 98217-6267"
+    },
+    {
+      "FN": "Sandrinho",
+      "TEL": "+55 35 9971-0096"
+    },
+    {
+      "FN": "Chapa",
+      "TEL": "+55 34 9896-6755"
+    },
+    {
+      "FN": "Douglas",
+      "TEL": "+55 16 98104-1011"
+    },
+    {
+      "FN": "Lojas Americanas",
+      "TEL": "33076126"
+    },
+    {
+      "FN": "Detona",
+      "TEL": "+55 37 9804-9572"
+    },
+    {
+      "FN": "Vanessa Salão",
+      "TEL": "+55 16 99112-0641"
+    },
+    {
+      "FN": "Anselmo",
+      "TEL": "+55 16 99131-9383"
+    },
+    {
+      "FN": "Victor Benício",
+      "TEL": "+55 21 96555-7620"
+    },
+    {
+      "FN": "Julinha"
+    },
+    {
+      "FN": "Ícaro",
+      "TEL": "+55 16 99739-8036"
+    },
+    {
+      "FN": "Renato Grangeia",
+      "TEL": "+55 16 99383-8452"
+    },
+    {
+      "FN": "Sandra Prado",
+      "TEL": "+55 16 98212-6172"
+    },
+    {
+      "FN": "Wife💍❤️",
+      "TEL": "+55 35 99225-7565"
+    },
+    {
+      "FN": "Igor JEC",
+      "TEL": "16981428703"
+    },
+    {
+      "FN": "For",
+      "TEL": "+55 45 9915-4345"
+    },
+    {
+      "FN": "Sarda",
+      "TEL": "+55 16 99744-3879"
+    },
+    {
+      "FN": "Bela",
+      "TEL": "+55 16 99303-9787"
+    },
+    {
+      "FN": "Casas Bahia",
+      "TEL": "01633625300"
+    },
+    {
+      "FN": "Daniel Gini",
+      "TEL": "+55 16 98200-1810"
+    },
+    {
+      "FN": "Vinicius Descalvado",
+      "TEL": "+55 19 99255-4510"
+    },
+    {
+      "FN": "Lucas L",
+      "TEL": "+55 16 99792-3556"
+    },
+    {
+      "FN": "Josué Araraquara Revisita",
+      "TEL": "997034676"
+    },
+    {
+      "FN": "Lop",
+      "TEL": ["+55 93 91184-637", "+55 93 9101-4359"]
+    },
+    {
+      "FN": "Irma Déo",
+      "TEL": "+55 16 98164-8191"
+    },
+    {
+      "FN": "Natália/Marcos",
+      "TEL": "+55 16 99749-1652"
+    },
+    {
+      "FN": "Ric",
+      "TEL": "+55 94 9205-3867"
+    },
+    {
+      "FN": "Filipe Fabiano",
+      "TEL": "+55 16 98215-9676"
+    },
+    {
+      "FN": "Laerte Barbeiro",
+      "TEL": ["997165591", "992753802"]
+    },
+    {
+      "FN": "Juliano",
+      "TEL": "41998217150"
+    },
+    {
+      "FN": "Juninho",
+      "TEL": ["+55 16 99233-7014", "+55 16 99629-7014"]
+    },
+    {
+      "FN": "Luiz Faxinal",
+      "TEL": "+55 43 9841-8207"
+    },
+    {
+      "FN": "Matheus Takeda",
+      "TEL": ["+55 62 99015-338", "+55 62 9530-2479"]
+    },
+    {
+      "FN": "Sandra Moura",
+      "TEL": "+55 16 99449-1221"
+    },
+    {
+      "FN": "Tati Salão",
+      "TEL": "+55 16 99260-2728"
+    },
+    {
+      "FN": "Laura Formaziero",
+      "TEL": "+55 18 99603-6145"
+    },
+    {
+      "FN": "Gustavo Caixeta",
+      "TEL": "+55 16 99157-1878"
+    },
+    {
+      "FN": "Paulão",
+      "TEL": "+55 16 98188-0240"
+    },
+    {
+      "FN": "Murilo Fioroni",
+      "TEL": "+55 16 99600-4405"
+    },
+    {
+      "FN": "Diogo Motta",
+      "TEL": "+55 16 99258-9061"
+    },
+    {
+      "FN": "Bruna Estágio",
+      "TEL": "+55 16 98101-4978"
+    },
+    {
+      "FN": "Arthur",
+      "TEL": "+55 19 99944-8064"
+    },
+    {
+      "FN": "João Gaudêncio",
+      "TEL": "+55 16 99252-6385"
+    },
+    {
+      "FN": "Gabriela Passoni",
+      "TEL": "+55 19 98988-5887"
+    },
+    {
+      "FN": "Izabeli Brisotto",
+      "TEL": "+55 44 9816-7399"
+    },
+    {
+      "FN": "Marcão Auto Escola",
+      "TEL": "+55 16 98144-0072"
+    },
+    {
+      "FN": "Rafaela",
+      "TEL": [
+        "+55 19 97106-5111",
+        "+55 19 99219-1664",
+        "+55 19 99651-4140"
+      ]
+    },
+    {
+      "FN": "Neusa Salão",
+      "TEL": "+55 16 99213-7820"
+    },
+    {
+      "FN": "Daniele Dangelo",
+      "TEL": "+55 16 99144-9424"
+    },
+    {
+      "FN": "Mineiro",
+      "TEL": "+55 16 99784-7767"
+    },
+    {
+      "FN": "Petrônio Sogro",
+      "TEL": [
+        "+55 35 99105-8052",
+        "+55 35 99105-8052"
+      ]
+    },
+    {
+      "FN": "Paulo Barbosa",
+      "TEL": "+55 16 99764-3426"
+    },
+    {
+      "FN": "Ruben",
+      "TEL": "+55 16 99646-3636"
+    },
+    {
+      "FN": "Tata",
+      "TEL": "+55 16 99638-9096"
+    },
+    {
+      "FN": "Yaya",
+      "TEL": "+55 16 99289-3817"
+    },
+    {
+      "FN": "Gustavo Souza",
+      "TEL": [
+        "+55 16 99366-2752",
+        "+55 19 98157-4774"
+      ]
+    },
+    {
+      "FN": "Kauan Mendes",
+      "TEL": "+55 16 99608-3894"
+    },
+    {
+      "FN": "Evail Faxinal",
+      "TEL": "+55 43 98824-7879"
+    },
+    {
+      "FN": "Siqueira",
+      "TEL": "+55 16 98102-0913"
+    },
+    {
+      "FN": "Mah Orlandi",
+      "TEL": "+55 19 99754-4845"
+    },
+    {
+      "FN": "Isabel Salão",
+      "TEL": [
+        "+55 16 99106-0138",
+        "+55 84 99653-1168"
+      ]
+    },
+    {
+      "FN": "Ângela Maldonado",
+      "TEL": "+55 16 98116-6498"
+    },
+    {
+      "FN": "Bruno",
+      "TEL": "+55 16 99265-7084"
+    },
+    {
+      "FN": "Beto",
+      "TEL": "+55 21 99776-5111"
+    },
+    {
+      "FN": "Joaquim",
+      "TEL": "+55 16 99709-1284"
+    },
+    {
+      "FN": "Tata Prima",
+      "TEL": "+55 19 99931-7691"
+    },
+    {
+      "FN": "Luiz Gustavo",
+      "TEL": "+55 16 99264-9121"
+    },
+    {
+      "FN": "Lucas Lazarine",
+      "TEL": "+55 19 99469-8771"
+    },
+    {
+      "FN": "Pablo",
+      "TEL": "+55 19 99520-3232"
+    },
+    {
+      "FN": "Guto Bussadori",
+      "TEL": "+55 16 99281-9598"
+    },
+    {
+      "FN": "Olavo Bicicletaria",
+      "TEL": "34138198"
+    },
+    {
+      "FN": "Vó Eleuza",
+      "TEL": "+55 19 99854-0645"
+    },
+    {
+      "FN": "Bella Gonçalves",
+      "TEL": "+55 16 99182-5333"
+    },
+    {
+      "FN": "Well BRW",
+      "TEL": [
+        "+55 43 9667-7785",
+        "+55 43 8432-4471"
+      ]
+    },
+    {
+      "FN": "Digo",
+      "TEL": "+5519989513361"
+    },
+    {
+      "FN": "Lili",
+      "TEL": "+55 19 97137-4431"
+    },
+    {
+      "FN": "Thaís Salão",
+      "TEL": "+55 16 99111-5654"
+    },
+    {
+      "FN": "Graça Salão",
+      "TEL": "+55 16 99290-0318"
+    },
+    {
+      "FN": "Tia Gisele",
+      "TEL": "+55 35 9221-4780"
+    },
+    {
+      "FN": "Thaís Vila Nova",
+      "TEL": "+55 16 98867-7756"
+    },
+    {
+      "FN": "Du Yenes",
+      "TEL": "+55 16 99727-2906"
+    },
+    {
+      "FN": "Evandro JEC",
+      "TEL": "98151-9730"
+    },
+    {
+      "FN": "Nick",
+      "TEL": "+5516981055040"
+    },
+    {
+      "FN": "Ivo Levez",
+      "TEL": "+55 16 99773-8903"
+    },
+    {
+      "FN": "Belita",
+      "TEL": "+55 16 98188-7695"
+    },
+    {
+      "FN": "Raul",
+      "TEL": "+55 35 9845-5144"
+    },
+    {
+      "FN": "Rafael Marino",
+      "TEL": "+5516981523869"
+    },
+    {
+      "FN": "Edilson JEC",
+      "TEL": "991128444"
+    },
+    {
+      "FN": "Bettini",
+      "TEL": "+5516999751309"
+    },
+    {
+      "FN": "Duda Darezzo",
+      "TEL": "+55 16 99775-8737"
+    },
+    {
+      "FN": "Musa",
+      "TEL": "+55 92 9170-0828"
+    },
+    {
+      "FN": "Pizzaria Ravenna",
+      "TEL": "01633663120"
+    },
+    {
+      "FN": "Ana",
+      "TEL": "+5516981172549"
+    },
+    {
+      "FN": "Belga",
+      "TEL": "+5521994930217"
+    },
+    {
+      "FN": "Rizzoli",
+      "TEL": "+5516993558118"
+    },
+    {
+      "FN": "Irineu Faxinal",
+      "TEL": "14997833359"
+    },
+    {
+      "FN": "Arícia",
+      "TEL": "+55 16 98826-8813"
+    },
+    {
+      "FN": "Lili",
+      "TEL": "+55 19 97146-3400"
+    },
+    {
+      "FN": "Lili",
+      "TEL": "+55 19 99764-2401"
+    },
+    {
+      "FN": "Lili",
+      "TEL": "+55 19 99927-6627"
+    },
+    {
+      "FN": "Bruna Salão",
+      "TEL": "+55 16 99308-9600"
+    },
+    {
+      "FN": "Pri Martins",
+      "TEL": "+55 16 99156-0501"
+    },
+    {
+      "FN": "Felipe Lippi",
+      "TEL": "11992561691"
+    },
+    {
+      "FN": "Pizzaria Bom Pedaço",
+      "TEL": "01633713696"
+    },
+    {
+      "FN": "Lúcio Fabiano",
+      "TEL": "+55 16 98101-3651"
+    },
+    {
+      "FN": "Pedro Maldonado",
+      "TEL": "+5519993291441"
+    },
+    {
+      "FN": "Vigário",
+      "TEL": "+55 16 98837-7324"
+    },
+    {
+      "FN": "Izê Salão",
+      "TEL": "+55 16 98151-3048"
+    },
+    {
+      "FN": "Sayumi Okuyama",
+      "TEL": "+55 17 98193-0059"
+    },
+    {
+      "FN": "Mateuzinho",
+      "TEL": "+55 16 99276-0236"
+    },
+    {
+      "FN": "Nilton",
+      "TEL": "+5516992318617"
+    },
+    {
+      "FN": "Nilton",
+      "TEL": "+5584996531178"
+    },
+    {
+      "FN": "Marcos Salão",
+      "TEL": "+55 16 99629-7640"
+    },
+    {
+      "FN": "Marcos Salão",
+      "TEL": "+55 16 99130-6967"
+    },
+    {
+      "FN": "Tadeu",
+      "TEL": "+5516981247542"
+    },
+    {
+      "FN": "Leandro Moraes",
+      "TEL": "+55 14 98145-1727"
+    },
+    {
+      "FN": "Marcos Betel",
+      "TEL": "+55 19 98171-3321"
+    },
+    {
+      "FN": "Lucas Rib. Preto Revisita",
+      "TEL": "996451778"
+    },
+    {
+      "FN": "Bruno",
+      "TEL": "+5516991083302"
+    },
+    {
+      "FN": "Bruno",
+      "TEL": "+55 16 99422-5879"
+    },
+    {
+      "FN": "Murilo",
+      "TEL": "+55 16 99140-2512"
+    },
+    {
+      "FN": "Neila Sogra",
+      "TEL": "35991915474"
+    },
+    {
+      "FN": "Marino",
+      "TEL": "+55 16 98803-5496"
+    },
+    {
+      "FN": "Jr Formaziero",
+      "TEL": "+55 16 99198-4721"
+    },
+    {
+      "FN": "Aline Loja",
+      "TEL": "+55 19 99149-0848"
+    },
+    {
+      "FN": "Rômulo Faxinal",
+      "TEL": "+55 43 8499-4021"
+    },
+    {
+      "FN": "João Jr",
+      "TEL": "+55 16 99326-8960"
+    },
+    {
+      "FN": "Raquel",
+      "TEL": "+55 16 99319-5379"
+    },
+    {
+      "FN": "Victor",
+      "TEL": "+55 16 99309-3282"
+    },
+    {
+      "FN": "Aline",
+      "TEL": "+55 19 99408-1744"
+    },
+    {
+      "FN": "Sabrina",
+      "TEL": "+55 35 9241-3294"
+    },
+    {
+      "FN": "Renato Yenes",
+      "TEL": "+55 16 98204-0131"
+    },
+    {
+      "FN": "Ricardo Salão",
+      "TEL": "+55 16 98113-0694"
+    },
+    {
+      "FN": "Silvana",
+      "TEL": "+5516982569489"
+    },
+    {
+      "FN": "Irineu",
+      "TEL": "+5518981793481"
+    },
+    {
+      "FN": "Irineu",
+      "TEL": "+55 16 98217-3344"
+    },
+    {
+      "FN": "Galactus LL",
+      "TEL": "+55 73 8879-7438"
+    },
+    {
+      "FN": "Renan",
+      "TEL": "+5511987071292"
+    },
+    {
+      "FN": "Pierin",
+      "TEL": "+55 19 99160-5755"
+    },
+    {
+      "FN": "Serkat BRW",
+      "TEL": "+81 80-9562-3700"
+    },
+    {
+      "FN": "Deusdete",
+      "TEL": "+55 16 98832-5027"
+    },
+    {
+      "FN": "Du Tonani",
+      "TEL": "+55 16 99632-9250"
+    },
+    {
+      "FN": "Du Tonani",
+      "TEL": "+55 16 99633-4351"
+    },
+    {
+      "FN": "Du Tonani",
+      "TEL": "+55 16 99738-6456"
+    },
+    {
+      "FN": "Vó Irma",
+      "TEL": "33075260"
+    },
+    {
+      "FN": "Manoel Faxinal",
+      "TEL": "+55 43 8858-7501"
+    },
+    {
+      "FN": "Irma Déo",
+      "TEL": "+55 16 98872-9552"
+    },
+    {
+      "FN": "Mara Faxinal",
+      "TEL": "+55 43 8867-0009"
+    },
+    {
+      "FN": "Mirela Salão",
+      "TEL": "+55 16 99610-0664"
+    },
+    {
+      "FN": "Guto Araújo",
+      "TEL": "+55 16 99750-8491"
+    },
+    {
+      "FN": "Lessandro",
+      "TEL": "+5516981170500"
+    },
+    {
+      "FN": "Lessandro",
+      "TEL": "+553175156662"
+    },
+    {
+      "FN": "Vini",
+      "TEL": "+55 16 99143-1402"
+    },
+    {
+      "FN": "Vini",
+      "TEL": "+55 16 99180-9980"
+    },
+    {
+      "FN": "Felipe Reschini",
+      "TEL": "+55 19 98953-9315"
+    },
+    {
+      "FN": "The End LL",
+      "TEL": "+55 35 9871-5088"
+    },
+    {
+      "FN": "Kauã Riralim",
+      "TEL": "+5513988360134"
+    },
+    {
+      "FN": "Mário",
+      "TEL": "+55 16 98806-5056"
+    },
+    {
+      "FN": "Mário",
+      "TEL": "+55 16 99345-3090"
+    },
+    {
+      "FN": "Lucas Lazarine",
+      "TEL": "+55 19 99498-4139"
+    },
+    {
+      "FN": "Gui Paschoalin",
+      "TEL": "+55 19 99135-5280"
+    },
+    {
+      "FN": "Diego",
+      "TEL": "+55 35 9126-4650"
+    },
+    {
+      "FN": "Valmor Faxinal",
+      "TEL": "+55 43 9607-5002"
+    },
+    {
+      "FN": "Eric",
+      "TEL": "+5516991045872"
+    },
+    {
+      "FN": "Vitor Sena",
+      "TEL": "+5516997071998"
+    },
+    {
+      "FN": "Marilu 2 Descalvado",
+      "TEL": "35835355"
+    },
+    {
+      "FN": "Rúbia",
+      "TEL": "+55 16 99151-3158"
+    },
+    {
+      "FN": "Jão Pinheiro",
+      "TEL": "+55 16 98865-5270"
+    },
+    {
+      "FN": "Chapa",
+      "TEL": "+55 34 9881-7531"
+    },
+    {
+      "FN": "Chapa",
+      "TEL": "+55 34 9893-6292"
+    },
+    {
+      "FN": "Gab",
+      "TEL": "+5516996143292"
+    },
+    {
+      "FN": "Gabriel Descalvado",
+      "TEL": "+55 19 99147-8182"
+    },
+    {
+      "FN": "Carla Marioto",
+      "TEL": "+55 16 99798-2207"
+    },
+    {
+      "FN": "Leandro",
+      "TEL": "+55 19 99479-5075"
+    },
+    {
+      "FN": "Jerri",
+      "TEL": "+55 16 99732-4009"
+    },
+    {
+      "FN": "Magazine Luiza",
+      "TEL": "01633620500"
+    },
+    {
+      "FN": "Álvaro Carvalho",
+      "TEL": "+5516992876445"
+    },
+    {
+      "FN": "Natan",
+      "TEL": "+55 16 98167-0136"
+    },
+    {
+      "FN": "João Bezerra Araraquara",
+      "TEL": "+5516997335174"
+    },
+    {
+      "FN": "Amanda Melo",
+      "TEL": "+55 35 9111-6698"
+    },
+    {
+      "FN": "Caio Moraes",
+      "TEL": "+55 16 98105-0375"
+    },
+    {
+      "FN": "Caio Moraes",
+      "TEL": "+55 16 99708-0375"
+    },
+    {
+      "FN": "Toninho Prado",
+      "TEL": "991126553"
+    },
+    {
+      "FN": "Nelson",
+      "TEL": "+55 16 99218-0105"
+    },
+    {
+      "FN": "Marquinho",
+      "TEL": "+55 35 8861-4701"
+    },
+    {
+      "FN": "Bia Direito",
+      "TEL": "+55 16 99317-0122"
+    },
+    {
+      "FN": "Guilherme",
+      "TEL": "+55 14 98810-2692"
+    },
+    {
+      "FN": "Korak Neves",
+      "TEL": "+55 16 99707-9777"
+    },
+    {
+      "FN": "Junior Formaziero",
+      "TEL": "+55 16 99198-4721"
+    },
+    {
+      "FN": "Bia Ruys",
+      "TEL": "+55 41 9664-1155"
+    },
+    {
+      "FN": "Bia Ruys",
+      "TEL": "+55 19 99318-6868"
+    },
+    {
+      "FN": "Caio",
+      "TEL": "+55 16 98105-0375"
+    },
+    {
+      "FN": "João Marcelo",
+      "TEL": "+55 16 99710-8182"
+    },
+    {
+      "FN": "Oscar Yordi",
+      "TEL": "+55 16 98155-4527"
+    },
+    {
+      "FN": "Orestes COC",
+      "TEL": "+55 86 9861-0753"
+    },
+    {
+      "FN": "Biel Fazan",
+      "TEL": "+55 19 99151-6607"
+    },
+    {
+      "FN": "João Jardim",
+      "TEL": "+55 19 92000-4425"
+    },
+    {
+      "FN": "Detran",
+      "TEL": "1121789494"
+    },
+    {
+      "FN": "Hugo",
+      "TEL": "+5519994384467"
+    },
+    {
+      "FN": "Du",
+      "TEL": "+5516997256757"
+    },
+    {
+      "FN": "Du",
+      "TEL": "+55 16 99787-6757"
+    },
+    {
+      "FN": "João Jardim",
+      "TEL": "+55 19 99200-4425"
+    },
+    {
+      "FN": "Dira Salão",
+      "TEL": "+55 16 98876-9790"
+    },
+    {
+      "FN": "Laine",
+      "TEL": "+55 19 99252-8541"
+    },
+    {
+      "FN": "Hélio Pazeto",
+      "TEL": "+55 16 99229-3790"
+    },
+    {
+      "FN": "WL",
+      "TEL": "+55 21 97148-1394"
+    },
+    {
+      "FN": "Dudu",
+      "TEL": "+55 71 9911-0768"
+    },
+    {
+      "FN": "Dudu",
+      "TEL": "+1 (870) 217-7732"
+    },
+    {
+      "FN": "Maria Pazeto",
+      "TEL": "+55 11 99508-1085"
+    },
+    {
+      "FN": "João Bezerra Araraquara",
+      "TEL": "+55 16 99733-5174"
+    },
+    {
+      "FN": "Pai",
+      "TEL": "+55 16 99228-7746"
+    },
+    {
+      "FN": "Mãe",
+      "TEL": "+55 16 99772-9091"
+    },
+    {
+      "FN": "Rafa",
+      "TEL": "+5519992440823"
+    },
+    {
+      "FN": "Pedrão",
+      "TEL": "+55 11 98849-8268"
+    },
+    {
+      "FN": "Natalino",
+      "TEL": "+55 16 98100-9690"
+    },
+    {
+      "FN": "Rita Salão",
+      "TEL": "+55 16 98194-7388"
+    },
+    {
+      "FN": "Luiza",
+      "TEL": "+55 19 99822-1447"
+    },
+    {
+      "FN": "Rosilene",
+      "TEL": "+55 16 98250-1811"
+    },
+    {
+      "FN": "Alpha",
+      "TEL": "+55 84 9431-0889"
+    },
+    {
+      "FN": "Marcelo Salão",
+      "TEL": "+55 16 98183-1791"
+    },
+    {
+      "FN": "Matheus Massari",
+      "TEL": "+55 16 99791-1803"
+    },
+    {
+      "FN": "Polveiro JEC",
+      "TEL": "997496597"
+    },
+    {
+      "FN": "Gislaine",
+      "TEL": "+55 16 99112-4515"
+    },
+    {
+      "FN": "Isadora",
+      "TEL": "+55 16 98818-8618"
+    },
+    {
+      "FN": "Roberto Carlos Araraquara",
+      "TEL": "+55 16 99747-0003"
+    },
+    {
+      "FN": "Wizard Pedagógico",
+      "TEL": "+55 16 99782-5131"
+    },
+    {
+      "FN": "Dra Natalia Pelegrino",
+      "TEL": "+55 16 98143-4650"
+    },
+    {
+      "FN": "Kate Descalvado",
+      "TEL": "+55 19 99116-5555"
+    },
+    {
+      "FN": "Ponto Frio Shopping",
+      "TEL": "+55 16 3362-8700"
+    },
+    {
+      "FN": "Nathalia Prado",
+      "TEL": "+55 16 98238-3087"
+    },
+    {
+      "FN": "Tio Paulo",
+      "TEL": "+55 16 99707-2908"
+    },
+    {
+      "FN": "Wizard Financeiro",
+      "TEL": "+55 16 3375-7575"
+    },
+    {
+      "FN": "Luciene Salão",
+      "TEL": "+55 16 98245-1442"
+    },
+    {
+      "FN": "Leila",
+      "TEL": "+55 16 99180-3219"
+    },
+    {
+      "FN": "Vô Hélio",
+      "TEL": "019996553262"
+    },
+    {
+      "FN": "Maria",
+      "TEL": "+55 16 99204-0278"
+    },
+    {
+      "FN": "Joker",
+      "TEL": "+55 11 96702-4987"
+    },
+    {
+      "FN": "Zilda",
+      "TEL": "+55 16 99221-1933"
+    },
+    {
+      "FN": "Thiago",
+      "TEL": "+5516982202861"
+    },
+    {
+      "FN": "Duda Tundisi",
+      "TEL": "+55 16 99751-2122"
+    },
+    {
+      "FN": "Filipe Prado",
+      "TEL": "+5516982204959"
+    },
+    {
+      "FN": "Lê",
+      "TEL": "+55 19 99891-3424"
+    },
+    {
+      "FN": "Gustavo Okuyama",
+      "TEL": "+55 17 98162-0903"
+    },
+    {
+      "FN": "Mask",
+      "TEL": "+556992806007"
+    },
+    {
+      "FN": "Mask",
+      "TEL": "+55 69 9247-8841"
+    },
+    {
+      "FN": "Pri",
+      "TEL": "+55 16 98111-0229"
+    },
+    {
+      "FN": "Extra Shopping",
+      "TEL": "+55 16 3373-2079"
+    },
+    {
+      "FN": "Mah Simões",
+      "TEL": "+55 16 99236-0127"
+    },
+    {
+      "FN": "Sandra Rios",
+      "TEL": "+55 16 99219-7956"
+    },
+    {
+      "FN": "Lourdes Levez",
+      "TEL": "+55 16 99624-9200"
+    },
+    {
+      "FN": "Kevin",
+      "TEL": "+55 16 99636-2961"
+    },
+    {
+      "FN": "Márcio Kogos",
+      "TEL": "+5516992485469"
+    },
+    {
+      "FN": "Camila Salão",
+      "TEL": "+5519997919164"
+    },
+    {
+      "FN": "Aldomiro Pedrino - Sao Carlos S/A Ind",
+      "TEL": "+5516997826781"
+    },
+    {
+      "FN": "Adegmar BB Fórum",
+      "TEL": "+5516997995525"
+    },
+    {
+      "FN": "Márcia Salão",
+      "TEL": "+5516988107199"
+    },
+    {
+      "FN": "Geisiany Fernandes",
+      "TEL": "+5535998723994"
+    },
+    {
+      "FN": "Giu",
+      "TEL": "+5516997017768"
+    },
+    {
+      "FN": "Michelle/Pedro",
+      "TEL": "+5511975008199"
+    },
+    {
+      "FN": "Karina",
+      "TEL": "+5535991493181"
+    },
+    {
+      "FN": "Estácio São Carlos",
+      "TEL": "+5516997573210"
+    },
+    {
+      "FN": "Portaria Vila Verde Sabará",
+      "TEL": "+551630790217"
+    },
+    {
+      "FN": "Izabeli Agostinho",
+      "TEL": "+5516982029246"
+    },
+    {
+      "FN": "Kátia",
+      "TEL": "+5511993788314"
+    },
+    {
+      "FN": "Mirian Pão De Queijo",
+      "TEL": "+5516991719031"
+    },
+    {
+      "FN": "Valdir Pão De Queijo",
+      "TEL": "+5516981473376"
+    },
+    {
+      "FN": "Ângela Pão De Queijo",
+      "TEL": "+5516982082775"
+    },
+    {
+      "FN": "Joao Pao De Queijo",
+      "TEL": "+5516992023306"
+    },
+    {
+      "FN": "Patricia Pao De Queijo",
+      "TEL": "+5516999637188"
+    },
+    {
+      "FN": "Osvaldo Pao De Queijo",
+      "TEL": "+5516988082717"
+    },
+    {
+      "FN": "Roney Pao De Queijo",
+      "TEL": "+5516993223993"
+    },
+    {
+      "FN": "Juan chines Pao De Queijo",
+      "TEL": "+5516981558163"
+    },
+    {
+      "FN": "Braga Donuts Pao De Queijo",
+      "TEL": "+5516997208843"
+    },
+    {
+      "FN": "Cirlei Pão De Queijo",
+      "TEL": "+5516997882170"
+    },
+    {
+      "FN": "Gisele Imunibem Pão De Queijo",
+      "TEL": "+5516996053720"
+    },
+    {
+      "FN": "Gracia Pão De Queijo",
+      "TEL": "+5516981131425"
+    },
+    {
+      "FN": "Adriana Andreazzi Pão De Queijo",
+      "TEL": "+5516988560517"
+    },
+    {
+      "FN": "Toninho Varejão PQ",
+      "TEL": "+5516999911500"
+    },
+    {
+      "FN": "Don Gordon PQ",
+      "TEL": "+551634162097"
+    },
+    {
+      "FN": "Humberto De Biase/ Damha 2",
+      "TEL": "+5511998933719"
+    },
+    {
+      "FN": "Márcia Pao De Queijo",
+      "TEL": "+5516981432917"
+    },
+    {
+      "FN": "Godfred",
+      "TEL": "+5516997438115"
+    },
+    {
+      "FN": "Godfred",
+      "TEL": "+5516996052271"
+    },
+    {
+      "FN": "Lucas Chinaglia",
+      "TEL": "+5516992750555"
+    },
+    {
+      "FN": "Veridiana Bom Bife PQ",
+      "TEL": "+5511982827455"
+    },
+    {
+      "FN": "Bonura",
+      "TEL": "+5516997639967"
+    },
+    {
+      "FN": "César Casa De Carne Joquei PQ",
+      "TEL": "+5516991353431"
+    },
+    {
+      "FN": "Jorge Bar Joquei PQ",
+      "TEL": "+5516991748489"
+    },
+    {
+      "FN": "Ana Paula Cantina Unicep",
+      "TEL": "+5516992875321"
+    },
+    {
+      "FN": "Padaria Bela Cantatori PQ",
+      "TEL": "+5516997016696"
+    },
+    {
+      "FN": "Empório Do Campo PQ",
+      "TEL": "+5516996169165"
+    },
+    {
+      "FN": "Sacolao Jerusalem Edson PQ",
+      "TEL": "+5516981103623"
+    },
+    {
+      "FN": "Casa De Carnes Continental PQ",
+      "TEL": "+5516996181955"
+    },
+    {
+      "FN": "Sacolão Rios Jockey PQ",
+      "TEL": "+5516992643215"
+    },
+    {
+      "FN": "Rachel Damha 2 PQ",
+      "TEL": "+5516997811200"
+    },
+    {
+      "FN": "Cris Posto BR PQ",
+      "TEL": "+5516981254064"
+    },
+    {
+      "FN": "Andresa PQ",
+      "TEL": "+5516991655034"
+    },
+    {
+      "FN": "Renata Salão",
+      "TEL": "+5514988221351"
+    },
+    {
+      "FN": "Silmara Auto Escola",
+      "TEL": "+551633744403"
+    },
+    {
+      "FN": "Silmara Auto Escola",
+      "TEL": "+5516992366777"
+    },
+    {
+      "FN": "Paulo PQ",
+      "TEL": "+5516991588658"
+    },
+    {
+      "FN": "Leandro Fut",
+      "TEL": "+5516982580705"
+    },
+    {
+      "FN": "Cristina Damha 2",
+      "TEL": "+5516992413542"
+    },
+    {
+      "FN": "Delci Salão",
+      "TEL": "+5516996449909"
+    },
+    {
+      "FN": "Mariane PQ",
+      "TEL": "+5519981086698"
+    },
+    {
+      "FN": "Cibele PQ",
+      "TEL": "+5516997926050"
+    },
+    {
+      "FN": "Débora Oficiala PQ",
+      "TEL": "+5516997818419"
+    },
+    {
+      "FN": "Silmara Apreia",
+      "TEL": "+5516996187838"
+    },
+    {
+      "FN": "Marlene Salão",
+      "TEL": "+5516988760275"
+    },
+    {
+      "FN": "Alê Gallo PQ",
+      "TEL": "+5516991436715"
+    },
+    {
+      "FN": "Bruna Itápolis PQ",
+      "TEL": "+5516997237932"
+    },
+    {
+      "FN": "Renata Cogeb",
+      "TEL": "+5516997983020"
+    },
+    {
+      "FN": "Posto Jatão",
+      "TEL": "+5516997580090"
+    },
+    {
+      "FN": "Viviane Assim Assado",
+      "TEL": "+5516996350816"
+    },
+    {
+      "FN": "Posto Alto Da XV Sandra",
+      "TEL": "+5516981920129"
+    },
+    {
+      "FN": "Jóia De Minas - ADM",
+      "TEL": "+5537998170788"
+    },
+    {
+      "FN": "Denise PQ",
+      "TEL": "+5516996031553"
+    },
+    {
+      "FN": "Irmã Margarete Posto Jockey PQ",
+      "TEL": "+5516992270702"
+    },
+    {
+      "FN": "Jhenifer PQ",
+      "TEL": "+5516981273009"
+    },
+    {
+      "FN": "Vagner Dias Vila Verde",
+      "TEL": "+5516982083921"
+    },
+    {
+      "FN": "Paulo Trailer Ufscar",
+      "TEL": "+5516981817336"
+    },
+    {
+      "FN": "Luciana Trailer Ufscar",
+      "TEL": "+5516991828804"
+    },
+    {
+      "FN": "Celso Tropicana Sucos",
+      "TEL": "+5516991538183"
+    },
+    {
+      "FN": "Tiago A Massa PQ",
+      "TEL": "+5516997936541"
+    },
+    {
+      "FN": "Soraia/Lício PQ",
+      "TEL": "+5516992293589"
+    },
+    {
+      "FN": "Geraldo Ovos PQ",
+      "TEL": "+5516988149219"
+    },
+    {
+      "FN": "Cristiana Piso",
+      "TEL": "+5516999913333"
+    },
+    {
+      "FN": "João/Pri Ninelli PQ",
+      "TEL": "+5516996249388"
+    },
+    {
+      "FN": "Ricardo Café O Lobo Ufscar",
+      "TEL": "+5516997732282"
+    },
+    {
+      "FN": "Átila Gomide Ufscar PQ",
+      "TEL": "+5516988134437"
+    },
+    {
+      "FN": "Vagner Iembo Mercado",
+      "TEL": "+5516996039138"
+    },
+    {
+      "FN": "Neuza Padaria Jockey",
+      "TEL": "+5516992910209"
+    },
+    {
+      "FN": "Luiz Felipe Siltomac",
+      "TEL": "+5516993151932"
+    },
+    {
+      "FN": "Moacir",
+      "TEL": "+5516997026472"
+    },
+    {
+      "FN": "Jesus Montija",
+      "TEL": "+5516997123443"
+    },
+    {
+      "FN": "Dani Padaria Primavera",
+      "TEL": "+5516981785421"
+    },
+    {
+      "FN": "Hamilton Oficial",
+      "TEL": "+5516991176099"
+    },
+    {
+      "FN": "Yonã Kátia PQ",
+      "TEL": "+5516997426816"
+    },
+    {
+      "FN": "Galego Unicep",
+      "TEL": "+5587981439743"
+    },
+    {
+      "FN": "Kélen Fórum",
+      "TEL": "+5518982037772"
+    },
+    {
+      "FN": "Joana Magri Salgados",
+      "TEL": "+5516991758733"
+    },
+    {
+      "FN": "Loja Que Tem Alexandra",
+      "TEL": "+5516993822354"
+    },
+    {
+      "FN": "Ana Cláudia Fehr PQ",
+      "TEL": "+5516992669208"
+    },
+    {
+      "FN": "Idalécio Fehr PQ",
+      "TEL": "+5516981589010"
+    },
+    {
+      "FN": "Patrícia Fehr PQ",
+      "TEL": "+5516993022234"
+    },
+    {
+      "FN": "José Paulo PQ",
+      "TEL": "+5516994233756"
+    },
+    {
+      "FN": "Elza Silva PQ",
+      "TEL": "+5534155419"
+    },
+    {
+      "FN": "Valmir Dias PQ",
+      "TEL": "+5516992397820"
+    },
+    {
+      "FN": "Rafael PQ",
+      "TEL": "+5516981102779"
+    },
+    {
+      "FN": "Ângelo PQ",
+      "TEL": "+5516992314768"
+    },
+    {
+      "FN": "Juliana Posto Margarete PQ",
+      "TEL": "+55993013735"
+    },
+    {
+      "FN": "Lucimara Posto Margarete PQ",
+      "TEL": "+55992113692"
+    },
+    {
+      "FN": "Amanda Posto Margarete PQ",
+      "TEL": "+5516991672723"
+    },
+    {
+      "FN": "Maria Helena Salão",
+      "TEL": "+5516981424547"
+    },
+    {
+      "FN": "Juliana Posto Margarete PQ",
+      "TEL": "+55993013735"
+    },
+    {
+      "FN": "Juliana Posto Margarete PQ",
+      "TEL": "+5516993013735"
+    },
+    {
+      "FN": "Lucimara Posto Margarete PQ",
+      "TEL": "+5516992113692"
+    },
+    {
+      "FN": "Melissa Salão",
+      "TEL": "+5516982135979"
+    },
+    {
+      "FN": "Anderson Shopping Do Churrasco PQ",
+      "TEL": "+5516996230701"
+    },
+    {
+      "FN": "Neusa Salão",
+      "TEL": "+5516992137820"
+    },
+    {
+      "FN": "Tais Marcenaria PQ",
+      "TEL": "+5516994009192"
+    },
+    {
+      "FN": "Tais Marcenaria PQ",
+      "TEL": "+5516981374883"
+    },
+    {
+      "FN": "Priscila Marcenaria PQ",
+      "TEL": "+5516992563612"
+    },
+    {
+      "FN": "Sérgio Tamoyo",
+      "TEL": "+5516991687017"
+    },
+    {
+      "FN": "Glaucia Damha 2 PQ",
+      "TEL": "+5516997521260"
+    },
+    {
+      "FN": "Marcos Barbeiro PQ",
+      "TEL": "+5516991045637"
+    },
+    {
+      "FN": "Rosangela Damha 2 PQ",
+      "TEL": "+5511991004326"
+    },
+    {
+      "FN": "Pedro Casa 375 Damha 2 PQ",
+      "TEL": "+5516997833526"
+    },
+    {
+      "FN": "Tainá Prima",
+      "TEL": "+5516981847185"
+    },
+    {
+      "FN": "Alisson Bueno",
+      "TEL": "+5516993590320"
+    },
+    {
+      "FN": "Márcia Damha 2 Casa 190 PQ",
+      "TEL": "+5516999944343"
+    },
+    {
+      "FN": "Suellen Damha 2 Casa 380 PQ",
+      "TEL": "+5516997430098"
+    },
+    {
+      "FN": "Tais Escola Alê",
+      "TEL": "+5516997590619"
+    },
+    {
+      "FN": "Livia Escola Alê",
+      "TEL": "+5516992112030"
+    },
+    {
+      "FN": "Letícia Escola Alê",
+      "TEL": "+5516997053623"
+    },
+    {
+      "FN": "Andréia Escola Alê",
+      "TEL": "+5516997203485"
+    },
+    {
+      "FN": "Ariane Escola Alê",
+      "TEL": "+5516992196139"
+    },
+    {
+      "FN": "Sandra Escola Alê",
+      "TEL": "+55997195290"
+    },
+    {
+      "FN": "Vanessa Escola Alê",
+      "TEL": "+5516991979478"
+    },
+    {
+      "FN": "Pâmela Escola Alê",
+      "TEL": "+5516991878782"
+    },
+    {
+      "FN": "Claudiane Escola Alê",
+      "TEL": "+5516988434272"
+    },
+    {
+      "FN": "Crislaine Escola Alê",
+      "TEL": "+5516991152803"
+    },
+    {
+      "FN": "Leiliane Escola Alê",
+      "TEL": "+5516981207744"
+    },
+    {
+      "FN": "Mateus Guarda Fórum",
+      "TEL": "+5516993187172"
+    },
+    {
+      "FN": "Carlos Guarda Fórum",
+      "TEL": "+5516982189806"
+    },
+    {
+      "FN": "Eleide Guarda Fórum",
+      "TEL": "+5516991671115"
+    },
+    {
+      "FN": "Flávia Musolino Damha 2 PQ",
+      "TEL": "+5516982140293"
+    },
+    {
+      "FN": "Rita Vara Fazenda PQ",
+      "TEL": "+5516997354019"
+    },
+    {
+      "FN": "Stela Damha 2 PQ",
+      "TEL": "+5516992599282"
+    },
+    {
+      "FN": "Patrícia Padaria PQ",
+      "TEL": "+5516981059399"
+    },
+    {
+      "FN": "Shopping Da Carne PQ",
+      "TEL": "+5516999626402"
+    },
+    {
+      "FN": "Vinicius Padaria PQ",
+      "TEL": "+5516993456600"
+    },
+    {
+      "FN": "Gabriel Cantador PQ",
+      "TEL": "+5516982061345"
+    },
+    {
+      "FN": "Posto Nacional Andreia",
+      "TEL": "+016981920081"
+    },
+    {
+      "FN": "Kelly PQ",
+      "TEL": "+5516993941725"
+    },
+    {
+      "FN": "Margarida Mercearia Jockey",
+      "TEL": "+5516981540315"
+    },
+    {
+      "FN": "Hélio Cantinho Do Norte PQ",
+      "TEL": "+5516988185326"
+    },
+    {
+      "FN": "Yasmin PQ",
+      "TEL": "+5516994664033"
+    },
+    {
+      "FN": "Ana PQ",
+      "TEL": "+5516997944664"
+    },
+    {
+      "FN": "Jéssica Padaria Jockey",
+      "TEL": "+5516991508772"
+    },
+    {
+      "FN": "Joana Salão",
+      "TEL": "+5516981590387"
+    },
+    {
+      "FN": "Amadeu PQ",
+      "TEL": "+5516992205467"
+    },
+    {
+      "FN": "Cibele Damha 2 Casa 350 PQ",
+      "TEL": "+5516981232726"
+    },
+    {
+      "FN": "Juliana Escola Ipanema PQ",
+      "TEL": "+5516992311509"
+    },
+    {
+      "FN": "Padaria Mirely PQ",
+      "TEL": "+5516981341768"
+    },
+    {
+      "FN": "Diogo Loja PQ",
+      "TEL": "+5516997238642"
+    },
+    {
+      "FN": "Taís Loja Jockey PQ",
+      "TEL": "+5516999620356"
+    },
+    {
+      "FN": "Maria Antonia PQ",
+      "TEL": "+5516988269450"
+    },
+    {
+      "FN": "André Serotini PQ",
+      "TEL": "+5516996012538"
+    },
+    {
+      "FN": "José PQ",
+      "TEL": "+5519996622254"
+    },
+    {
+      "FN": "Daniel PQ",
+      "TEL": "+5516992196261"
+    },
+    {
+      "FN": "Erica PQ",
+      "TEL": "+5516997582603"
+    },
+    {
+      "FN": "Roseana PQ",
+      "TEL": "+5516991249530"
+    },
+    {
+      "FN": "Terumi Damha 2 Casa 12 PQ",
+      "TEL": "+5516981383739"
+    },
+    {
+      "FN": "Silvia Corrêa Damha 2 PQ",
+      "TEL": "+5516981566065"
+    },
+    {
+      "FN": "Erica Mercado Azulville PQ",
+      "TEL": "+5516997648243"
+    },
+    {
+      "FN": "Carmen Damha 2 PQ",
+      "TEL": "+5516992199021"
+    },
+    {
+      "FN": "Meliza Damha 2",
+      "TEL": "+5516996210420"
+    },
+    {
+      "FN": "Marco Terra Damha 2 Casa 29 PQ",
+      "TEL": "+5516999948881"
+    },
+    {
+      "FN": "Arthur Damha 2 PQ",
+      "TEL": "+5516991283191"
+    },
+    {
+      "FN": "Margaret Fórum",
+      "TEL": "+5516997340723"
+    },
+    {
+      "FN": "Pé Na Praça PQ",
+      "TEL": "+551634166300"
+    },
+    {
+      "FN": "Marcelo El Cardal",
+      "TEL": "+5516996191769"
+    },
+    {
+      "FN": "PRISCILA BAR DO BOSQUE PQ",
+      "TEL": "+5516992226035"
+    },
+    {
+      "FN": "Fernanda Empório Da Massa PQ",
+      "TEL": "+5516981737641"
+    },
+    {
+      "FN": "Boi Brabo PQ",
+      "TEL": "+5516997327902"
+    },
+    {
+      "FN": "Eliane Posto Das Bandeiras PQ",
+      "TEL": "+551633073993"
+    },
+    {
+      "FN": "Vovó Lúcia PQ",
+      "TEL": "+551633728145"
+    },
+    {
+      "FN": "San Marin PQ Unidade 1",
+      "TEL": "+55191161728"
+    },
+    {
+      "FN": "Larissa PQ",
+      "TEL": "+5517992201878"
+    },
+    {
+      "FN": "Lugano Isabela PQ",
+      "TEL": "+5516997149661"
+    },
+    {
+      "FN": "Léo 3M PQ",
+      "TEL": "+5516988217156"
+    },
+    {
+      "FN": "Léo 3M PQ",
+      "TEL": "+5516981555397"
+    },
+    {
+      "FN": "Alexandre Salão",
+      "TEL": "+5516981147475"
+    },
+    {
+      "FN": "Edvaldo Martins",
+      "TEL": "+5516982365331"
+    },
+    {
+      "FN": "Sandra 461 Damha 2 PQ",
+      "TEL": "+5516997489990"
+    },
+    {
+      "FN": "Herbety Psicólogo",
+      "TEL": "+5516982114375"
+    },
+    {
+      "FN": "Yone Palma Psicóloga",
+      "TEL": "+5516991781710"
+    },
+    {
+      "FN": "Consultório Yone",
+      "TEL": "+5516981734510"
+    },
+    {
+      "FN": "Eliandra Lotumulo PQ",
+      "TEL": "+5516997942044"
+    },
+    {
+      "FN": "Wânia Posto Margarete",
+      "TEL": "+5516997810503"
+    },
+    {
+      "FN": "Mariana Menossi Minozzi Damha 2 PQ",
+      "TEL": "+5516991012016"
+    },
+    {
+      "FN": "Posto Mall Danilo PQ",
+      "TEL": "+5517988066136"
+    },
+    {
+      "FN": "Lucas Pinheiro Damha 2 PQ",
+      "TEL": "+5516991373328"
+    },
+    {
+      "FN": "Mariana R. C. Garcia Damha 2 PQ",
+      "TEL": "+5516997797753"
+    },
+    {
+      "FN": "Vera Oliveira Aracy SR PQ",
+      "TEL": "+5516991146136"
+    },
+    {
+      "FN": "Amanda Empadas PQ",
+      "TEL": "+5516996514030"
+    },
+    {
+      "FN": "Thayze Bezerra Damha 2 PQ",
+      "TEL": "+5516992325009"
+    },
+    {
+      "FN": "Vanessa Carmo",
+      "TEL": "+5516997077054"
+    },
+    {
+      "FN": "Fátima Generoso SR PQ",
+      "TEL": "+5516988153377"
+    },
+    {
+      "FN": "Jacy Unhas SR PQ",
+      "TEL": "+5516997222197"
+    },
+    {
+      "FN": "Stefanie Reith Damha 2 PQ",
+      "TEL": "+5516988181786"
+    },
+    {
+      "FN": "Gisele PQ",
+      "TEL": "+5516991343245"
+    },
+    {
+      "FN": "Tânia Embaré SR PQ",
+      "TEL": "+5519993787630"
+    },
+    {
+      "FN": "Sandra Feijó SR PQ",
+      "TEL": "+5516997415318"
+    },
+    {
+      "FN": "Fer Brassi SR PQ",
+      "TEL": "+5516981098593"
+    },
+    {
+      "FN": "Marcelo Pallota Abreu Damha 2 Casa 17 PQ",
+      "TEL": "+5511991101828"
+    },
+    {
+      "FN": "Aline Damha 2 Casa 420 PQ",
+      "TEL": "+5516982245535"
+    },
+    {
+      "FN": "Maria Elisa Toledo Piza Damha 2 Casa 508 PQ",
+      "TEL": "+5516997668999"
+    },
+    {
+      "FN": "Leonardo Penz",
+      "TEL": "+5516988080561"
+    },
+    {
+      "FN": "Thiago Húngaro Salão",
+      "TEL": "+5516996330506"
+    },
+    {
+      "FN": "Marleide Escola Alê",
+      "TEL": "+5521990527215"
+    },
+    {
+      "FN": "Janine Escola Alê",
+      "TEL": "+5516988304499"
+    },
+    {
+      "FN": "Juliana Escola Alê",
+      "TEL": "+5516981875724"
+    },
+    {
+      "FN": "Clemildes Pascoal SR PQ",
+      "TEL": "+5516982227583"
+    },
+    {
+      "FN": "Fátima Escola Alê",
+      "TEL": "+5516997021762"
+    },
+    {
+      "FN": "Deise Regi SR PQ",
+      "TEL": "+55988059833"
+    },
+    {
+      "FN": "Cris Contri SR PQ",
+      "TEL": "+5516997006213"
+    },
+    {
+      "FN": "Eliany Ribeiro PQ",
+      "TEL": "+5516981162729"
+    },
+    {
+      "FN": "Dayane Fargoni PQ",
+      "TEL": "+5516991226275"
+    },
+    {
+      "FN": "Denise Damha 2 Casa 112 PQ",
+      "TEL": "+5516996392256"
+    },
+    {
+      "FN": "Andrea Cunhada Deise PQ",
+      "TEL": "+5516991614278"
+    },
+    {
+      "FN": "Helena Salão",
+      "TEL": "+5516991402155"
+    },
+    {
+      "FN": "Celiana Deise SR PQ",
+      "TEL": "+5516988003914"
+    },
+    {
+      "FN": "Lu Adorno Damha 2 PQ",
+      "TEL": "+5516997668435"
+    },
+    {
+      "FN": "Flávio Cortês",
+      "TEL": "+5516981023006"
+    },
+    {
+      "FN": "Mário Cantina Usp",
+      "TEL": "+5516997939753"
+    },
+    {
+      "FN": "Izaías",
+      "TEL": "+5535998430142"
+    },
+    {
+      "FN": "Vivi Clayton Salão PQ",
+      "TEL": "+5516994584721"
+    },
+    {
+      "FN": "Dy Lacerda Clash",
+      "TEL": "+553799596976"
+    },
+    {
+      "FN": "Ivaldo Usp",
+      "TEL": "+5516991033503"
+    },
+    {
+      "FN": "Caroline Usp",
+      "TEL": "+5516981009730"
+    },
+    {
+      "FN": "José Roberto Usp",
+      "TEL": "+55991017054"
+    },
+    {
+      "FN": "Jair Usp",
+      "TEL": "+55992619539"
+    },
+    {
+      "FN": "Milton Usp",
+      "TEL": "+5516991791618"
+    },
+    {
+      "FN": "Alcino Usp",
+      "TEL": "+5516997905456"
+    },
+    {
+      "FN": "Jorge Usp",
+      "TEL": "+5516991710402"
+    },
+    {
+      "FN": "Dagoberto Usp",
+      "TEL": "+5516993021849"
+    },
+    {
+      "FN": "Mário Sérgio Usp",
+      "TEL": "+5516992194695"
+    },
+    {
+      "FN": "Meire Usp",
+      "TEL": "+5516997689957"
+    },
+    {
+      "FN": "Marques Usp",
+      "TEL": "+5516991331627"
+    },
+    {
+      "FN": "César Usp",
+      "TEL": "+5516991863750"
+    },
+    {
+      "FN": "Eduardo Usp",
+      "TEL": "+5516996199353"
+    },
+    {
+      "FN": "Danieli Faga Conveniência PQ",
+      "TEL": "+5516999647889"
+    },
+    {
+      "FN": "Armazém Caipira PQ",
+      "TEL": "+5516992186315"
+    },
+    {
+      "FN": "Top Meat PQ",
+      "TEL": "+5516981801180"
+    },
+    {
+      "FN": "Aki Tem + PQ",
+      "TEL": "+5516996412058"
+    },
+    {
+      "FN": "Empório Sabbatino PQ",
+      "TEL": "+5516997701305"
+    },
+    {
+      "FN": "Edilson Miranda PQ",
+      "TEL": "+5516993447066"
+    },
+    {
+      "FN": "Ana Luisa Sabbatino PQ",
+      "TEL": "+5516997014344"
+    },
+    {
+      "FN": "Gustavo Pouso Alegre",
+      "TEL": "+5538991661167"
+    },
+    {
+      "FN": "Paula Jansen Damha 2 PQ",
+      "TEL": "+5519992821275"
+    },
+    {
+      "FN": "Adriana Oficiala PQ",
+      "TEL": "+5516991588979"
+    },
+    {
+      "FN": "Messenger Rh Gestor",
+      "TEL": "+5544999826413"
+    },
+    {
+      "FN": "Paolino Professor",
+      "TEL": "+5516981924675"
+    },
+    {
+      "FN": "Ângela Deise PQ",
+      "TEL": "+5516996005083"
+    },
+    {
+      "FN": "Paulo Mercearia Tutóia PQ",
+      "TEL": "+5516992077618"
+    },
+    {
+      "FN": "Anália Mesquita PQ",
+      "TEL": "+5516981713134"
+    },
+    {
+      "FN": "Sandra Cunhada Anália PQ",
+      "TEL": "+5516996127666"
+    },
+    {
+      "FN": "Anita Cantina Usp PQ",
+      "TEL": "+5516996150163"
+    },
+    {
+      "FN": "Neiva Damha 2 Casa 283 PQ",
+      "TEL": "+5516991523442"
+    },
+    {
+      "FN": "Sandra Trailer Ufscar",
+      "TEL": "+5516991663635"
+    },
+    {
+      "FN": "Gustavo San Marin PQ",
+      "TEL": "+5516992810850"
+    },
+    {
+      "FN": "Sônia Usp",
+      "TEL": "+5516991721785"
+    },
+    {
+      "FN": "Mara Usp",
+      "TEL": "+5516997621847"
+    },
+    {
+      "FN": "Bianca Salão",
+      "TEL": "+5516993924423"
+    },
+    {
+      "FN": "Serginho Fórum PQ",
+      "TEL": "+5516997070582"
+    },
+    {
+      "FN": "Patrícia Fórum PQ",
+      "TEL": "+5516997833501"
+    },
+    {
+      "FN": "Thomazelli Fórum PQ",
+      "TEL": "+5516991143478"
+    },
+    {
+      "FN": "Adriana Fórum PQ",
+      "TEL": "+5516997816431"
+    },
+    {
+      "FN": "Sérgio Silvestre Fotógrafo",
+      "TEL": "+5519993281180"
+    },
+    {
+      "FN": "Bruno Fabbri Damha Casa 257 PQ",
+      "TEL": "+5516981112007"
+    },
+    {
+      "FN": "Márcio Santos Fut",
+      "TEL": "+5516991678378"
+    },
+    {
+      "FN": "André Silvestre Filmaker",
+      "TEL": "+5519984153998"
+    },
+    {
+      "FN": "Kawana Escola Bia",
+      "TEL": "+5516993571980"
+    },
+    {
+      "FN": "Elisângela Escola Bia",
+      "TEL": "+5516994608280"
+    },
+    {
+      "FN": "Larissa Escola Bia",
+      "TEL": "+5517997618148"
+    },
+    {
+      "FN": "Juliana Escola Bia",
+      "TEL": "+5516991614432"
+    },
+    {
+      "FN": "Lizandra Escola Bia",
+      "TEL": "+5516991088899"
+    },
+    {
+      "FN": "José Escola Bia",
+      "TEL": "+5516997411280"
+    },
+    {
+      "FN": "Foto Cora Descalvado",
+      "TEL": "+5519991137125"
+    },
+    {
+      "FN": "Andrea Damha 2 Casa 204 PQ",
+      "TEL": "+5516991871082"
+    },
+    {
+      "FN": "Evandro PQ",
+      "TEL": "+5516992507273"
+    },
+    {
+      "FN": "Carla Local Beer PQ",
+      "TEL": "+5516993807907"
+    },
+    {
+      "FN": "Gabriela PQ",
+      "TEL": "+5516991826460"
+    },
+    {
+      "FN": "Eliane Escola Alê",
+      "TEL": "+5516981521856"
+    },
+    {
+      "FN": "Renata Escola Alê",
+      "TEL": "+5516997839286"
+    },
+    {
+      "FN": "Alessandra Escola Alê",
+      "TEL": "+5516988129222"
+    },
+    {
+      "FN": "João Félix Usp",
+      "TEL": "+5516981867554"
+    },
+    {
+      "FN": "Vanessa Usp",
+      "TEL": "+5516992829355"
+    },
+    {
+      "FN": "Marcela Usp",
+      "TEL": "+5516992693596"
+    },
+    {
+      "FN": "Jeisila Usp",
+      "TEL": "+5516997703879"
+    },
+    {
+      "FN": "Edelber Usp",
+      "TEL": "+5516981299363"
+    },
+    {
+      "FN": "Thiago Usp",
+      "TEL": "+5516981010924"
+    },
+    {
+      "FN": "Adriane Alves SR V. Prado PQ",
+      "TEL": "+5511964023369"
+    },
+    {
+      "FN": "Beth Escola Alê 2",
+      "TEL": "+5516991781757"
+    },
+    {
+      "FN": "Aline Escola Alê 2",
+      "TEL": "+5516991839017"
+    },
+    {
+      "FN": "Beatriz Escola Alê 2",
+      "TEL": "+5516991148854"
+    },
+    {
+      "FN": "Thais Escola Alê 2",
+      "TEL": "+5516988213794"
+    },
+    {
+      "FN": "Heloiza Escola Alê 2",
+      "TEL": "+5516996468084"
+    },
+    {
+      "FN": "Pâmela Escola Alê",
+      "TEL": "+5516991878782"
+    },
+    {
+      "FN": "Sandro Frios Estrela PQ",
+      "TEL": "+5516991695670"
+    },
+    {
+      "FN": "Tamoyo 2 PQ",
+      "TEL": "+5516991556077"
+    },
+    {
+      "FN": "Vera Morena Café PQ",
+      "TEL": "+5516991425609"
+    },
+    {
+      "FN": "Fabiana Damha 2 PQ",
+      "TEL": "+5516992043381"
+    },
+    {
+      "FN": "Mara Feira PQ",
+      "TEL": "+5516981595646"
+    },
+    {
+      "FN": "Tina Mãe Giovani PQ",
+      "TEL": "+5516996311177"
+    },
+    {
+      "FN": "Eunice Feira PQ",
+      "TEL": "+5516993746555"
+    },
+    {
+      "FN": "Marcelo Estação PQ",
+      "TEL": "+5516993441608"
+    },
+    {
+      "FN": "Rosângela Cliente Feira PQ",
+      "TEL": "+5516992148284"
+    },
+    {
+      "FN": "Cleusa/Moisés Cliente Feira PQ",
+      "TEL": "+5516992662771"
+    },
+    {
+      "FN": "Toninho Carrara PQ",
+      "TEL": "33711313"
+    },
+    {
+      "FN": "Toninho Carrara PQ",
+      "TEL": "+551633711313"
+    },
+    {
+      "FN": "Patrícia Diretora Escola Alê",
+      "TEL": "+5516992599775"
+    },
+    {
+      "FN": "Deise Posto Wânia",
+      "TEL": "+5516992034539"
+    },
+    {
+      "FN": "Bete Posto Wânia",
+      "TEL": "+5516993674985"
+    },
+    {
+      "FN": "Lilian Falaci PQ",
+      "TEL": "+5516997351562"
+    },
+    {
+      "FN": "Aloísio Salvador Do Trator",
+      "TEL": "+5535991228855"
+    },
+    {
+      "FN": "Breno Muzambinho",
+      "TEL": "+5535998382475"
+    },
+    {
+      "FN": "Padaria Veneto Ilza",
+      "TEL": "+5516993685099"
+    },
+    {
+      "FN": "Márcio Revisita Muzambinho",
+      "TEL": "+5535991148021"
+    },
+    {
+      "FN": "Gildo Revisita Muzambinho",
+      "TEL": "+5535999133775"
+    },
+    {
+      "FN": "Cidinha Revisita Muzambinho",
+      "TEL": "+5535998586646"
+    },
+    {
+      "FN": "Sebastião Revisita Muzambinho",
+      "TEL": "+5535999547778"
+    },
+    {
+      "FN": "Marmoraria São Carlos Amaro",
+      "TEL": "+5516988531368"
+    },
+    {
+      "FN": "Mercatto Rei Davi Karen",
+      "TEL": "+5516991916436"
+    },
+    {
+      "FN": "Gabriel Estudante",
+      "TEL": "+5516993593898"
+    },
+    {
+      "FN": "Renata Fórum PQ",
+      "TEL": "+5516993350956"
+    },
+    {
+      "FN": "Laisa Bardine PQ",
+      "TEL": "+5516997814635"
+    },
+    {
+      "FN": "Laize SR PQ",
+      "TEL": "+5516996106868"
+    },
+    {
+      "FN": "Gabriel Chave Uber",
+      "TEL": "+5519971525442"
+    },
+    {
+      "FN": "Rosameire PQ",
+      "TEL": "+5516991153043"
+    },
+    {
+      "FN": "Tamis PQ",
+      "TEL": "+5511991496962"
+    },
+    {
+      "FN": "Evanilsa PQ",
+      "TEL": "+5516992732228"
+    },
+    {
+      "FN": "André Revisita",
+      "TEL": "+5516981011159"
+    },
+    {
+      "FN": "Georgya Posto Margarete",
+      "TEL": "+5516996000221"
+    },
+    {
+      "FN": "Gutierres Joalheria",
+      "TEL": "01633075218"
+    },
+    {
+      "FN": "Taty PQ",
+      "TEL": "+5516997371937"
+    },
+    {
+      "FN": "Bruno PQ",
+      "TEL": "+5516996300761"
+    },
+    {
+      "FN": "Locaweb",
+      "TEL": "+551135440550"
+    },
+    {
+      "FN": "Flávio Damha 2 Casa 434 PQ",
+      "TEL": "+5516991823606"
+    },
+    {
+      "FN": "Flávio Damha 2 Casa 12 PQ",
+      "TEL": "+5516981229671"
+    },
+    {
+      "FN": "Samuel Espanhol",
+      "TEL": "+5517992056162"
+    },
+    {
+      "FN": "Lili Novo",
+      "TEL": "+5519997273872"
+    },
+    {
+      "FN": "Roberto PQ",
+      "TEL": "+5516982315154"
+    },
+    {
+      "FN": "77 Me Leva",
+      "TEL": "+5516982632110"
+    },
+    {
+      "FN": "Teca Revisita",
+      "TEL": "+5516993118728"
+    },
+    {
+      "FN": "Talles Revisita",
+      "TEL": "+5516991609382"
+    },
+    {
+      "FN": "Thiago Cintra Damha 2 Casa 203 PQ",
+      "TEL": "+5516992228786"
+    },
+    {
+      "FN": "Tulio Kehdi Damha 2 Casa 304 PQ",
+      "TEL": "+5511986373360"
+    },
+    {
+      "FN": "Matheus Revisita",
+      "TEL": "+5516999933078"
+    },
+    {
+      "FN": "Dario",
+      "TEL": "+5535991079040"
+    },
+    {
+      "FN": "Vinicius Carroquel",
+      "TEL": "+5516997573236"
+    },
+    {
+      "FN": "Heitor West Pneus PQ",
+      "TEL": "+5516997118881"
+    },
+    {
+      "FN": "Mônica Esposa Heitor PQ",
+      "TEL": "+5516981526572"
+    },
+    {
+      "FN": "Renan Discasa",
+      "TEL": "+5516982073754"
+    },
+    {
+      "FN": "Leandro Prata",
+      "TEL": "+5516992386506"
+    },
+    {
+      "FN": "Ellen PQ",
+      "TEL": "+5516993351540"
+    },
+    {
+      "FN": "Guilherme Guimarães Pará",
+      "TEL": "+5593984174277"
+    },
+    {
+      "FN": "Silvia Queiróz Nuveto",
+      "TEL": "+5511913670863"
+    },
+    {
+      "FN": "Neisson",
+      "TEL": "+5537999830455"
+    },
+    {
+      "FN": "Nube - Contratos",
+      "TEL": "+551131547380"
+    },
+    {
+      "FN": "Carla Escola Alê 2 PQ",
+      "TEL": "+5516991674006"
+    },
+    {
+      "FN": "Renata Café E Restaurante Ivonete PQ São Carlos",
+      "TEL": "+5516981489650"
+    },
+    {
+      "FN": "Joilson",
+      "TEL": "+5516974030038"
+    },
+    {
+      "FN": "Dr Portugal",
+      "TEL": "+551633712040"
+    },
+    {
+      "FN": "Gabriel Nuveto",
+      "TEL": "+5511986149193"
+    },
+    {
+      "FN": "Leonardo Congregação Norte",
+      "TEL": "+5516991002295"
+    },
+    {
+      "FN": "Isadora/Mara PQ",
+      "TEL": "+5516982457232"
+    },
+    {
+      "FN": "Joaquim Vilela PQ",
+      "TEL": "+5516993245986"
+    },
+    {
+      "FN": "Débora Posto Georgya PQ",
+      "TEL": "+5516994612677"
+    },
+    {
+      "FN": "Call Center Unimed",
+      "TEL": "+551621077333"
+    },
+    {
+      "FN": "Cristina Ivo/Pepê Damha 2 Casa 15 PQ",
+      "TEL": "+5516991943833"
+    },
+    {
+      "FN": "Aline Cerra/Adriana Fórum PQ",
+      "TEL": "+5516991780867"
+    },
+    {
+      "FN": "Lu Fórum",
+      "TEL": "+5516981277607"
+    },
+    {
+      "FN": "Marcelo Arruda Jóia De Minas SP",
+      "TEL": "+5511992400812"
+    },
+    {
+      "FN": "Borges Nuveto",
+      "TEL": "+5511984312127"
+    },
+    {
+      "FN": "Caio Prohouse",
+      "TEL": "+5516994218550"
+    },
+    {
+      "FN": "Meri Cartório Eleitoral PQ",
+      "TEL": "+5516997745114"
+    },
+    {
+      "FN": "Ana Magda Fórum PQ",
+      "TEL": "+5516997920678"
+    },
+    {
+      "FN": "Leda Müller PQ",
+      "TEL": "+5516997332070"
+    },
+    {
+      "FN": "Vó Lena",
+      "TEL": "+551935931084"
+    },
+    {
+      "FN": "Vó Lena",
+      "TEL": "+5519997620550"
+    },
+    {
+      "FN": "Rosana PQ",
+      "TEL": "+5516981450504"
+    },
+    {
+      "FN": "Outlet360 Comércio LTDA",
+      "TEL": "+5519995914898"
+    },
+    {
+      "FN": "Murillo Melo Nuveto",
+      "TEL": "+5511994175161"
+    },
+    {
+      "FN": "Sandro Montador",
+      "TEL": "+5516994669102"
+    },
+    {
+      "FN": "Medeiros / Ar Condicionado Vila Verde",
+      "TEL": "+5516991943701"
+    },
+    {
+      "FN": "Zé Lima Sítio Pouso Alegre",
+      "TEL": "+5535988983534"
+    },
+    {
+      "FN": "Giselli Cerimonialista",
+      "TEL": "+5535998816460"
+    },
+    {
+      "FN": "Bruno",
+      "TEL": "+5518992020137"
+    },
+    {
+      "FN": "Vó Lena",
+      "TEL": "(19) 3593-1084"
+    },
+    {
+      "FN": "João Vitor Gaspar",
+      "TEL": "+5516991012915"
+    },
+    {
+      "FN": "Casa Da Mídia",
+      "TEL": "01633748664"
+    },
+    {
+      "FN": "Casa Da Mídia",
+      "TEL": "+551633748664"
+    },
+    {
+      "FN": "Digital E Cia",
+      "TEL": "+551634157357"
+    },
+    {
+      "FN": "Bárbara Lima",
+      "TEL": "+5532999263464"
+    },
+    {
+      "FN": "Eliane Verona",
+      "TEL": "+5519997231553"
+    },
+    {
+      "FN": "Diógenes Claro",
+      "TEL": "+5516992428387"
+    },
+    {
+      "FN": "Garbuio Montador",
+      "TEL": "+5516992302809"
+    },
+    {
+      "FN": "Sêniõr",
+      "TEL": "+5591984941847"
+    },
+    {
+      "FN": "Zazú",
+      "TEL": "+5511945089488"
+    },
+    {
+      "FN": "Maria Eduarda Faxineira",
+      "TEL": "+5516991154871"
+    },
+    {
+      "FN": "Pablo Pouso Alegre",
+      "TEL": "+5535991217950"
+    },
+    {
+      "FN": "Adilson Eletricista",
+      "TEL": "+5516992323249"
+    },
+    {
+      "FN": "Gustavo Jóckey",
+      "TEL": "+5516994629029"
+    },
+    {
+      "FN": "Daiani Gutierres Joalheria",
+      "TEL": "+5516992742902"
+    },
+    {
+      "FN": "Vila Social",
+      "TEL": "+5516997048178"
+    },
+    {
+      "FN": "Ana Luisa",
+      "TEL": "+5531984071252"
+    },
+    {
+      "FN": "Tayla",
+      "TEL": "+5543984026596"
+    },
+    {
+      "FN": "Ana Laura",
+      "TEL": "+5518991571858"
+    },
+    {
+      "FN": "Amanda Rodrigues",
+      "TEL": "+5535992007536"
+    },
+    {
+      "FN": "Carlos Rezende",
+      "TEL": "+5535992414734"
+    },
+    {
+      "FN": "Guty",
+      "TEL": "+5535999514411"
+    },
+    {
+      "FN": "Nádia",
+      "TEL": "+5537998041979"
+    },
+    {
+      "FN": "Tia Patrícia",
+      "TEL": ""
+    },
+    {
+      "FN": "Tia Patrícia",
+      "TEL": "+5535991926688"
+    },
+    {
+      "FN": "Thomás",
+      "TEL": "+5535984369819"
+    },
+    {
+      "FN": "Tia Neivinha",
+      "TEL": "+5531984732528"
+    },
+    {
+      "FN": "Tia Neilda",
+      "TEL": "+5531998043555"
+    },
+    {
+      "FN": "Bianca Pouso Alegre",
+      "TEL": "+5535992161315"
+    },
+    {
+      "FN": "Cibele",
+      "TEL": "+5535998395391"
+    },
+    {
+      "FN": "Yasmim Pouso Alegre",
+      "TEL": "+5535991967645"
+    },
+    {
+      "FN": "Marcelo Jardins Pouso Alegre",
+      "TEL": "+5535988038933"
+    },
+    {
+      "FN": "Everton Vigário",
+      "TEL": "+5516988765952"
+    },
+    {
+      "FN": "Doc Rad Tcv Tomografia",
+      "TEL": "+5516992368165"
+    },
+    {
+      "FN": "A Simões Vidros",
+      "TEL": "+5516997003537"
+    },
+    {
+      "FN": "Doc Rad Tcv Tomografia",
+      "TEL": "+551634151823"
+    },
+    {
+      "FN": "Allyson Paiva Decorações",
+      "TEL": "+5535997726671"
+    },
+    {
+      "FN": "Marcela Prof Espanhol",
+      "TEL": "+5511995859425"
+    },
+    {
+      "FN": "Edite Casa 06",
+      "TEL": "+5516988128704"
+    },
+    {
+      "FN": "Fabíola Vila Verde Casa 50",
+      "TEL": "+5516992080010"
+    },
+    {
+      "FN": "Lucas Damha 2",
+      "TEL": "+5516993995388"
+    },
+    {
+      "FN": "Leandro Salão",
+      "TEL": "+5516988196044"
+    },
+    {
+      "FN": "Jô PQ",
+      "TEL": "+5516993774608"
+    },
+    {
+      "FN": "Kevinho",
+      "TEL": "+5516997876883"
+    },
+    {
+      "FN": "Domenica PQ",
+      "TEL": "+5516997413324"
+    },
+    {
+      "FN": "Pogba",
+      "TEL": "+5516993502089"
+    },
+    {
+      "FN": "Junior Mercado Vila Verde",
+      "TEL": "+5516996483835"
+    },
+    {
+      "FN": "Teste Oftalmoclin",
+      "TEL": "+557196659339"
+    },
+    {
+      "FN": "Néia",
+      "TEL": "+5516997351794"
+    },
+    {
+      "FN": "Vinicius Espraiado PQ",
+      "TEL": "+5516993329114"
+    },
+    {
+      "FN": "Marcela Usp",
+      "TEL": "+5516992969120"
+    },
+    {
+      "FN": "Julio Salão",
+      "TEL": "+5516993433098"
+    },
+    {
+      "FN": "Gabs Primo Marcela Usp PQ",
+      "TEL": "+5516981918088"
+    },
+    {
+      "FN": "Benedito",
+      "TEL": "+5516997023706"
+    },
+    {
+      "FN": "Mirce Souza PQ",
+      "TEL": "+5516991472198"
+    },
+    {
+      "FN": "Gustavo Laticínios Nascimento",
+      "TEL": "+5535984141628"
+    },
+    {
+      "FN": "Verme",
+      "TEL": "+5535998797312"
+    },
+    {
+      "FN": "Sandro Frios Estrela",
+      "TEL": "+5516997795133"
+    },
+    {
+      "FN": "Cid",
+      "TEL": "+5516997410647"
+    },
+    {
+      "FN": "Jão",
+      "TEL": "+5516996131108"
+    }
+  ]
+}
