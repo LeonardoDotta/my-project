@@ -8,18 +8,9 @@ export default {
     const form = useForm({
       name: '',
       age: '',
-      accept: false,
     });
 
     const onSubmit = () => {
-      if (!form.accept) {
-        Notify.create({
-          type: 'negative',
-          message: 'Please accept the license and terms',
-        });
-        return;
-      }
-
       form.get(route('dashboard'), {
         onSuccess: () => {
           Notify.create({
@@ -44,11 +35,11 @@ export default {
 </script>
 
 <template>
-  <div class="q-pa-md" style="max-width: 400px">
+  <div class="login">
     <q-form
       @submit.prevent="onSubmit"
       @reset="onReset"
-      class="q-gutter-md"
+      style="width: 20%;"
     >
       <q-input
         filled
@@ -56,24 +47,18 @@ export default {
         label="Your name *"
         hint="Name and surname"
         lazy-rules
-        :rules="[val => val && val.length > 0 || 'Please type something']"
+        :rules="[val => val && val.length > 0 || 'Please type your name']"
       />
 
       <q-input
         filled
-        type="number"
         v-model="form.age"
-        label="Your age *"
+        label="Your email *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'Please type your age',
-          val => val > 0 && val < 100 || 'Please type a real age'
+          val => val !== null && val !== '' || 'Please type your email',
+          val => val > 0 || 'Please type a real email'
         ]"
-      />
-
-      <q-toggle
-        v-model="form.accept"
-        label="I accept the license and terms"
       />
 
       <div>
@@ -83,3 +68,14 @@ export default {
     </q-form>
   </div>
 </template>
+
+<style css>
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15%;
+    height: 100vh;
+    background: azure;
+}
+</style>
