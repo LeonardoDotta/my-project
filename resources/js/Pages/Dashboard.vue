@@ -36,8 +36,8 @@ export default {
           <button onclick="location.href='clients'" class="buttons">
             Clientes
           </button>
-          <button onclick="location.href='/teste2'" class="buttons">
-            Teste 2
+          <button onclick="location.href='/messages'" class="buttons">
+            Mensagens
           </button>
           <button onclick="location.href='/teste3'" class="buttons">
             Teste 3
