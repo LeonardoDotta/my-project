@@ -2,17 +2,19 @@
 import { ref } from 'vue';
 import { usePage } from '@inertiajs/vue3';
 import { route } from 'ziggy-js';
+import { router } from '@inertiajs/vue3';
 import axios from 'axios';
 
 const page = usePage();
 const clients = ref(page.props.clients);
+const val = ref(true);
 
 const columns = [
     { label: '#', field: (row: any) => row.id || '', align: 'left' },
     { label: 'Nome', field: 'name', align: 'left', sortable: true },
     { label: 'Endereço', field: 'address', align: 'left', sortable: true },
     { label: 'Telefone', field: 'phone', align: 'left', sortable: true },
-    { label: 'Ações', name: 'actions', align: 'left' }
+    { label: 'Ações', name: 'actions', align: 'left' },
 ];
 
 const pagination = ref({
@@ -55,6 +57,9 @@ const deleteRow = async () => {
 <template>
   <div>
     <div class="create_button">
+      <button style="background: none; border: none;" @click="router.visit('/dashboard')">
+        <img src="/icons/back.svg" style="width: 4vw" fill="currentColor" />
+      </button>
       <q-btn color="primary" label="Adicionar Cliente" @click="goToCreatePage" />
     </div>
     <div class="q-pa-md">
@@ -72,7 +77,7 @@ const deleteRow = async () => {
         :columns="columns"
       >
         <template #body-cell-actions="props">
-          <q-td>
+          <q-td class="actions_and_checkbox">
             <div>
               <button class="actions_button" @click="handleAction(props.row)">
                 <img src="/icons/dots.svg" width="16" height="16" />
@@ -82,6 +87,9 @@ const deleteRow = async () => {
                 <q-btn :href="route('clients.edit', { id: props.row.id })">Editar</q-btn>
                 <q-btn @click="openDeleteModal(props.row)">Deletar</q-btn>
               </div>
+            </div>
+            <div>
+              <q-checkbox v-model="val" />
             </div>
           </q-td>
         </template>
@@ -108,8 +116,14 @@ const deleteRow = async () => {
 .create_button {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 2%;
+}
+
+.actions_and_checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .actions_button {
