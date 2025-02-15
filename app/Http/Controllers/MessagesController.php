@@ -50,4 +50,17 @@ class MessagesController extends Controller
     {
         //
     }
+
+    public function sendMessages(Request $request)
+    {
+        $numbers = $request->input('numbers'); // Lista de números
+        $message = $request->input('message'); // Mensagem
+
+        foreach ($numbers as $number) {
+            // Lógica para enviar mensagem para cada número
+            $this->whatsappService->sendMessage($number, $message);
+        }
+
+        return response()->json(['status' => 'success']);
+    }
 }

@@ -17,6 +17,7 @@ Route::get('/clients/{id}/edit', [ClientsController::class, 'edit'])->name('clie
 Route::put('/clients/{id}', [ClientsController::class, 'update']);
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages');
 Route::post('/messages', [MessagesController::class, 'store'])->name('messages.store');
+Route::post('/send-messages', [MessagesController::class, 'sendMessages']);
 
 Route::get('teste2', function () {
     return Inertia::render('Teste2');
