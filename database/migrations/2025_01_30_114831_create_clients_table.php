@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('phone');
-            $table->text('address');
+            $table->string('address')->nullable()->default('Desconhecido');
             $table->timestamps();
         });
     }

@@ -53,14 +53,30 @@ class MessagesController extends Controller
 
     public function sendMessages(Request $request)
     {
-        $numbers = $request->input('numbers'); // Lista de números
-        $message = $request->input('message'); // Mensagem
+        $contacts = ['5516997899080', '5535992257565'];
 
-        foreach ($numbers as $number) {
-            // Lógica para enviar mensagem para cada número
-            $this->whatsappService->sendMessage($number, $message);
+        foreach ($contacts as $contact) {
+            $curl = curl_init();
+
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => 'localhost:3333/message/text?key=123',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => '',
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 0,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                CURLOPT_POSTFIELDS => "id=$contact&message=Teste",
+                CURLOPT_HTTPHEADER => array(
+                    'Content-Type: application/x-www-form-urlencoded'
+                ),
+            ));
+
+            $response = curl_exec($curl);
+            curl_close($curl);
         }
 
-        return response()->json(['status' => 'success']);
+        return response()->json(['status' => 'Mensagens enviadas']);
     }
 }
