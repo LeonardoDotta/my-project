@@ -2,14 +2,8 @@
 import { ref } from 'vue';
 import { router } from '@inertiajs/vue3';
 import { route } from 'ziggy-js';
-import axios from 'axios';
 
 const text = ref('');
-const whatsappNumbers = ref([
-    '5516997899080', // Substitua pelos números desejados
-    '5516991045872',
-    '5535992257565',
-]);
 
 const saveMessage = async () => {
     if (text.value.trim() === '') {
@@ -18,42 +12,13 @@ const saveMessage = async () => {
     }
 
     try {
-        // Salva a mensagem no backend
         await router.post(route('messages.store'), { content: text.value });
 
-        // Enviar mensagem para todos os números do WhatsApp
-        sendWhatsAppMessage(text.value);
+        router.post('send-messages');
 
-        // Redirecionar para a página de clientes
         router.visit('clients');
     } catch (error) {
         console.error('Erro ao processar a requisição:', error);
-    }
-};
-
-const sendWhatsAppMessage = async (message: string) => {
-    try {
-        const formattedMessage = encodeURIComponent(message);
-
-        for (let i = 0; i < whatsappNumbers.value.length; i++) {
-            const number = whatsappNumbers.value[i];
-            const payload = {
-                to: number,
-                message: formattedMessage
-            };
-
-            // Chamando o endpoint da API para enviar a mensagem via WhatsApp
-            await axios.post('https://sua-api-de-whatsapp.com/enviar', payload, {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer seu-token-aqui', // Se necessário
-                }
-            });
-
-            console.log(`Mensagem enviada para ${number}`);
-        }
-    } catch (error) {
-        console.error('Erro ao enviar mensagem via WhatsApp:', error);
     }
 };
 
