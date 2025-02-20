@@ -1,28 +1,32 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { usePage } from '@inertiajs/vue3';
-import axios from 'axios';
+import { router } from '@inertiajs/vue3';
+import { route } from 'ziggy-js';
 
-const text = ref('');
+const text = ref('Olá, {nome}, tudo bem?'); 
 const selectedClients = ref([]);
 const page = usePage();
 
-onMounted(async () => {
-    const clientIds = page.props.clients; 
-    console.log(clientIds, selectedClients);
+onMounted(() => {
+    const clientIds = page.props.clients;
+    console.log(clientIds);
 
     if (!clientIds || clientIds.length === 0) {
         console.warn("Nenhum cliente foi passado.");
         return;
     }
 
-    try {
-        const response = await axios.get('/clients/get-by-ids', { params: { ids: clientIds } });
-        selectedClients.value = response.data;
-    } catch (error) {
-        console.error("Erro ao buscar clientes:", error.response || error.message);
-    }
+    selectedClients.value = clientIds; 
 });
+
+const generateMessages = () => {
+    return selectedClients.value.map(client => ({
+        id: client.id,
+        name: client.name,
+        message: text.value.replace(/{nome}/g, client.name) 
+    }));
+};
 
 const saveMessage = async () => {
     if (text.value.trim() === '') {
@@ -35,55 +39,62 @@ const saveMessage = async () => {
         return;
     }
 
-    try {
-        await axios.post('/send-messages', {
-            message: text.value,
-            clients: selectedClients.value.map(client => client.id) 
-        });
+    const messagesToSend = generateMessages();
 
-        alert("Mensagem enviada com sucesso!");
+    try {
+        await router.post(route('messages.store'), { messages: messagesToSend });
+
+        await router.post(route('messages.send'));
+
+        router.visit(route('clients'));
+
+        alert("Mensagens enviadas com sucesso!");
+        text.value = '';
     } catch (error) {
-        console.error("Erro ao enviar mensagem:", error);
+        console.error('Erro ao processar a requisição:', error);
     }
 };
-
-const contacts = ref([
-  { id: 1, name: 'Ruddy Jedrzej', email: 'rjedrzej0@discuz.net', letter: 'R' },
-  { id: 2, name: 'Mallorie Alessandrini', email: 'malessandrini1@marketwatch.com', letter: 'M' },
-  { id: 3, name: 'Elisabetta Wicklen', email: 'ewicklen2@microsoft.com', letter: 'E' },
-  { id: 4, name: 'Seka Fawdrey', email: 'sfawdrey3@wired.com', letter: 'S' }
-]);
 </script>
 
 <template>
     <div class="div_contacts_and_messages">
         <div class="div_contacts">
             <q-toolbar class="bg-primary text-white shadow-2">
-            <q-toolbar-title>Contacts</q-toolbar-title>
+                <q-toolbar-title>Contacts</q-toolbar-title>
             </q-toolbar>
-            <q-item v-for="contact in contacts" :key="contact.id" clickable v-ripple>
+            <q-item v-for="client in selectedClients" :key="client.id" clickable v-ripple>
                 <q-item-section avatar class="each_contact">
-                <q-avatar color="primary" text-color="white" class="avatar">
-                    {{ contact.letter }}
-                </q-avatar>
+                    <q-avatar color="primary" text-color="white" class="avatar">
+                        {{ client.name.charAt(0) }}
+                    </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                <q-item-label>{{ contact.name }}</q-item-label>
-                <q-item-label caption lines="1">{{ contact.email }}</q-item-label>
+                    <q-item-label>{{ client.name }}</q-item-label>
                 </q-item-section>
             </q-item>
         </div>
+
         <div class="div_messages">
             <div>
-                Digitar mensagem
+                Digitar mensagem (use <strong>{nome}</strong> para incluir o nome do cliente)
             </div>
             <div class="div_input_messages">
-            <q-input
-                v-model="text"
-                filled
-                type="textarea"
-            />
+                <q-input
+                    v-model="text"
+                    filled
+                    type="textarea"
+                />
             </div>
+
+            <div>
+                <strong>Pré-visualização das mensagens:</strong>
+                <ul>
+                    <li v-for="client in selectedClients" :key="client.id">
+                        {{ text.replace(/{nome}/g, client.name) }}
+                    </li>
+                </ul>
+            </div>
+
             <div>
                 <q-btn color="primary" label="Salvar e Enviar WhatsApp" @click="saveMessage" />
             </div>
@@ -113,7 +124,7 @@ const contacts = ref([
     justify-content: center;
 }
 
-.div_messages{
+.div_messages {
     display: flex;
     flex-direction: column;
     align-items: center;
