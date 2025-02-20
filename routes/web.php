@@ -18,7 +18,7 @@ Route::get('/clients/{id}/edit', [ClientsController::class, 'edit'])->name('clie
 Route::put('/clients/{id}', [ClientsController::class, 'update']);
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages');
 Route::post('/messages', [MessagesController::class, 'store'])->name('messages.store');
-Route::post('/send-messages', [MessagesController::class, 'sendMessages']);
+Route::post('/send-messages', [MessagesController::class, 'sendMessages'])->name('messages.send');
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages.index');
 
 Route::get('/clients/get-by-ids', function (Request $request) {
