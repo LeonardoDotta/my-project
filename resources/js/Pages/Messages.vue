@@ -1,9 +1,28 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { router } from '@inertiajs/vue3';
-import { route } from 'ziggy-js';
+import { ref, onMounted } from 'vue';
+import { usePage } from '@inertiajs/vue3';
+import axios from 'axios';
 
 const text = ref('');
+const selectedClients = ref([]);
+const page = usePage();
+
+onMounted(async () => {
+    const clientIds = page.props.clients; 
+    console.log(clientIds, selectedClients);
+
+    if (!clientIds || clientIds.length === 0) {
+        console.warn("Nenhum cliente foi passado.");
+        return;
+    }
+
+    try {
+        const response = await axios.get('/clients/get-by-ids', { params: { ids: clientIds } });
+        selectedClients.value = response.data;
+    } catch (error) {
+        console.error("Erro ao buscar clientes:", error.response || error.message);
+    }
+});
 
 const saveMessage = async () => {
     if (text.value.trim() === '') {
@@ -11,14 +30,20 @@ const saveMessage = async () => {
         return;
     }
 
+    if (selectedClients.value.length === 0) {
+        alert('Nenhum cliente selecionado.');
+        return;
+    }
+
     try {
-        await router.post(route('messages.store'), { content: text.value });
+        await axios.post('/send-messages', {
+            message: text.value,
+            clients: selectedClients.value.map(client => client.id) 
+        });
 
-        router.post('send-messages');
-
-        router.visit('clients');
+        alert("Mensagem enviada com sucesso!");
     } catch (error) {
-        console.error('Erro ao processar a requisição:', error);
+        console.error("Erro ao enviar mensagem:", error);
     }
 };
 

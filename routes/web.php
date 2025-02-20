@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ClientsController;
 use App\Http\Controllers\MessagesController;
+use App\Models\Clients;
 
 Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
@@ -18,6 +19,18 @@ Route::put('/clients/{id}', [ClientsController::class, 'update']);
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages');
 Route::post('/messages', [MessagesController::class, 'store'])->name('messages.store');
 Route::post('/send-messages', [MessagesController::class, 'sendMessages']);
+Route::get('/messages', [MessagesController::class, 'index'])->name('messages.index');
+
+Route::get('/clients/get-by-ids', function (Request $request) {
+    $clientIds = $request->query('ids', []);
+
+    if (empty($clientIds)) {
+        return response()->json([], 400);
+    }
+
+    $clients = Clients::whereIn('id', $clientIds)->get();
+    return response()->json($clients);
+});
 
 Route::get('teste2', function () {
     return Inertia::render('Teste2');

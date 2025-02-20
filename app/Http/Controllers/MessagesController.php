@@ -5,12 +5,25 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\Messages;
+use App\Models\Clients;
 
 class MessagesController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return Inertia::render('Messages');
+        $clientIds = $request->input('clients', []);
+
+        if (empty($clientIds)) {
+            return Inertia::render('Messages', [
+                'clients' => []
+            ]);
+        }
+
+        $clients = Clients::whereIn('id', $clientIds)->get();
+
+        return Inertia::render('Messages', [
+            'clients' => $clients
+        ]);
     }
 
     public function create()
@@ -53,13 +66,20 @@ class MessagesController extends Controller
 
     public function sendMessages(Request $request)
     {
-        $contacts = ['5516997899080', '5535992257565'];
+        $message = $request->input('message', 'Mensagem padrão');
+        $clientIds = $request->input('clients', []);
+
+        if (empty($clientIds)) {
+            return response()->json(['error' => 'Nenhum cliente selecionado'], 400);
+        }
+
+        $contacts = Client::whereIn('id', $clientIds)->pluck('phone')->toArray();
 
         foreach ($contacts as $contact) {
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
-                CURLOPT_URL => 'localhost:3333/message/text?key=123',
+                CURLOPT_URL => 'http://localhost:3333/message/text?key=123',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
@@ -67,7 +87,7 @@ class MessagesController extends Controller
                 CURLOPT_FOLLOWLOCATION => true,
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'POST',
-                CURLOPT_POSTFIELDS => "id=$contact&message=Teste",
+                CURLOPT_POSTFIELDS => "id=$contact&message=" . urlencode($message),
                 CURLOPT_HTTPHEADER => array(
                     'Content-Type: application/x-www-form-urlencoded'
                 ),
