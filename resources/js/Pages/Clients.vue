@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { usePage } from '@inertiajs/vue3';
 import { route } from 'ziggy-js';
-import { router } from '@inertiajs/vue3';
+import { router, usePage } from '@inertiajs/vue3';
 import axios from 'axios';
 
 const page = usePage();
@@ -52,6 +51,20 @@ const deleteRow = async () => {
     selectedClient.value = null;
   }
 };
+
+const selectedClients = ref<number[]>([]); 
+
+const goToMessageScreen = () => {
+    if (selectedClients.value.length === 0) {
+        alert("Selecione pelo menos um cliente para enviar a mensagem.");
+        return;
+    }
+
+    router.visit(route('messages.index'), {
+        method: 'get',
+        data: { clients: selectedClients.value } 
+    });
+};
 </script>
 
 <template>
@@ -61,6 +74,7 @@ const deleteRow = async () => {
         <img src="/icons/back.svg" style="width: 4vw" fill="currentColor" />
       </button>
       <q-btn color="primary" label="Adicionar Cliente" @click="goToCreatePage" />
+      <q-btn color="primary" label="Enviar Mensagem" @click="goToMessageScreen" />
     </div>
     <div class="q-pa-md">
       <q-table
@@ -89,7 +103,10 @@ const deleteRow = async () => {
               </div>
             </div>
             <div>
-              <q-checkbox v-model="val" />
+              <q-checkbox 
+                v-model="selectedClients" 
+                :val="props.row.id" 
+              />
             </div>
           </q-td>
         </template>
