@@ -69,12 +69,16 @@ const goToMessageScreen = () => {
 
 <template>
   <div>
-    <div class="create_button">
-      <button style="background: none; border: none;" @click="router.visit('/dashboard')">
-        <img src="/icons/back.svg" style="width: 4vw" fill="currentColor" />
-      </button>
-      <q-btn color="primary" label="Adicionar Cliente" @click="goToCreatePage" />
-      <q-btn color="primary" label="Enviar Mensagem" @click="goToMessageScreen" />
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div class="back_button">
+        <button style="background: none; border: none;" @click="router.visit('/dashboard')">
+          <img src="/icons/back.svg" style="width: 4vw; max-height: 36px;" fill="#0c6cfc" />
+        </button>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <q-btn color="black" label="Adicionar Cliente" style="margin: 1rem;" @click="goToCreatePage" />
+        <q-btn color="primary" label="Enviar Mensagem" style="margin: 1rem;" @click="goToMessageScreen" />
+      </div>
     </div>
     <div class="q-pa-md">
       <q-table
@@ -106,6 +110,7 @@ const goToMessageScreen = () => {
               <q-checkbox 
                 v-model="selectedClients" 
                 :val="props.row.id" 
+                style="width: 5%; margin-right: 2rem;"
               />
             </div>
           </q-td>
