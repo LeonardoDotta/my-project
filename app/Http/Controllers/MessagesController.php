@@ -66,17 +66,18 @@ class MessagesController extends Controller
 
     public function sendMessages(Request $request)
     {
-        $message = $request->input('message', 'Mensagem padrão');
-        $clientIds = $request->input('clients', []);
+        $clientIds = array_column($request["messages"], "id");
 
         if (empty($clientIds)) {
             return response()->json(['error' => 'Nenhum cliente selecionado'], 400);
         }
 
-        $contacts = Client::whereIn('id', $clientIds)->pluck('phone')->toArray();
+        $contacts = Clients::whereIn('id', $clientIds)->select('id', 'phone')->get()->toArray();
 
         foreach ($contacts as $contact) {
+            $message = array_column($request['messages'], null, 'id')[$contact['id']]['message'];
             $curl = curl_init();
+            $phone = preg_replace('/\D/', '', $contact["phone"]); 
 
             curl_setopt_array($curl, array(
                 CURLOPT_URL => 'http://localhost:3333/message/text?key=123',
@@ -87,16 +88,15 @@ class MessagesController extends Controller
                 CURLOPT_FOLLOWLOCATION => true,
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'POST',
-                CURLOPT_POSTFIELDS => "id=$contact&message=" . urlencode($message),
+                CURLOPT_POSTFIELDS => "id=" . urlencode($phone) . "&message=" . urlencode($message),
                 CURLOPT_HTTPHEADER => array(
                     'Content-Type: application/x-www-form-urlencoded'
                 ),
             ));
-
             $response = curl_exec($curl);
             curl_close($curl);
         }
 
-        return response()->json(['status' => 'Mensagens enviadas']);
+        return response()->json(['status' => 'Mensagens enviadas com sucesso!']);
     }
 }

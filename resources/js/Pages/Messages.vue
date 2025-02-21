@@ -43,9 +43,9 @@ const saveMessage = async () => {
 
     try {
         await router.post(route('messages.store'), { messages: messagesToSend });
-
-        await router.post(route('messages.send'));
-
+        
+        await router.post(route('messages.send'), { messages: messagesToSend });
+        
         router.visit(route('clients'));
 
         alert("Mensagens enviadas com sucesso!");
