@@ -58,11 +58,11 @@ const saveMessage = async () => {
 
 <template>
     <div class="div_contacts_and_messages">
-        <div class="div_contacts">
+        <div style="margin-top: 2rem; margin-left: 2rem;">
             <q-toolbar class="bg-primary text-white shadow-2">
-                <q-toolbar-title>Contacts</q-toolbar-title>
+                <q-toolbar-title style="text-align: center;">Selected Contacts</q-toolbar-title>
             </q-toolbar>
-            <q-item v-for="client in selectedClients" :key="client.id" clickable v-ripple>
+            <q-item v-for="client in selectedClients" :key="client.id" clickable v-ripple class="div_contacts"> 
                 <q-item-section avatar class="each_contact">
                     <q-avatar color="primary" text-color="white" class="avatar">
                         {{ client.name.charAt(0) }}
@@ -75,9 +75,6 @@ const saveMessage = async () => {
         </div>
 
         <div class="div_messages">
-            <div>
-                Digitar mensagem (use <strong>{nome}</strong> para incluir o nome do cliente)
-            </div>
             <div class="div_input_messages">
                 <q-input
                     v-model="text"
@@ -85,18 +82,8 @@ const saveMessage = async () => {
                     type="textarea"
                 />
             </div>
-
             <div>
-                <strong>Pré-visualização das mensagens:</strong>
-                <ul>
-                    <li v-for="client in selectedClients" :key="client.id">
-                        {{ text.replace(/{nome}/g, client.name) }}
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <q-btn color="primary" label="Salvar e Enviar WhatsApp" @click="saveMessage" />
+                <q-btn color="primary" label="Salvar e Enviar Mensagem" @click="saveMessage" />
             </div>
         </div>
     </div>
@@ -104,15 +91,17 @@ const saveMessage = async () => {
 
 <style>
 .div_contacts_and_messages {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-between;
 }
 
 .div_contacts {
-    padding: 16px;
-    max-width: 350px;
+    max-width: 300px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .each_contact {
@@ -135,5 +124,10 @@ const saveMessage = async () => {
 .div_input_messages {
     width: 40%;
     padding: 2%;
+}
+
+.q-toolbar {
+    width: auto !important;
+    max-width: 300px !important;
 }
 </style>
