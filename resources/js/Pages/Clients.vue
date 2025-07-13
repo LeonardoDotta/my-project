@@ -65,6 +65,18 @@ const goToMessageScreen = () => {
         data: { clients: selectedClients.value } 
     });
 };
+
+const goToOverviewScreen = () => {
+    if (selectedClients.value.length === 0) {
+        alert("Selecione pelo menos um cliente para criar o resumo.");
+        return;
+    }
+
+    router.visit(route('overview.index'), {
+        method: 'get',
+        data: { clients: selectedClients.value } 
+    });
+};
 </script>
 
 <template>
@@ -78,6 +90,7 @@ const goToMessageScreen = () => {
       <div style="display: flex; flex-direction: column;">
         <q-btn color="black" label="Adicionar Cliente" style="margin: 1rem;" @click="goToCreatePage" />
         <q-btn color="primary" label="Enviar Mensagem" style="margin: 1rem;" @click="goToMessageScreen" />
+        <q-btn color="primary" label="Criar Resumo" style="margin: 1rem;" @click="goToOverviewScreen" />
       </div>
     </div>
     <div class="q-pa-md">
