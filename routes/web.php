@@ -1,12 +1,13 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Models\Clients;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ClientsController;
 use App\Http\Controllers\MessagesController;
-use App\Models\Clients;
+use App\Http\Controllers\OverviewController;
+use App\Http\Controllers\DashboardController;
 
 Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
@@ -20,6 +21,7 @@ Route::get('/messages', [MessagesController::class, 'index'])->name('messages');
 Route::post('/messages', [MessagesController::class, 'store'])->name('messages.store');
 Route::post('/send-messages', [MessagesController::class, 'sendMessages'])->name('messages.send');
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages.index');
+Route::get('/overview', [OverviewController::class, 'index'])->name('overview.index');
 
 Route::get('/clients/get-by-ids', function (Request $request) {
     $clientIds = $request->query('ids', []);

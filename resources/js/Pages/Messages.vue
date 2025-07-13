@@ -21,11 +21,14 @@ onMounted(() => {
 });
 
 const generateMessages = () => {
-    return selectedClients.value.map(client => ({
-        id: client.id,
-        name: client.name,
-        message: text.value.replace(/{nome}/g, client.name) 
-    }));
+    return selectedClients.value.map(client => {
+        const firstName = client.name.split(' ')[0]; 
+        return {
+            id: client.id,
+            name: firstName,
+            message: text.value.replace(/{nome}/g, firstName) 
+        };
+    });
 };
 
 const saveMessage = async () => {
