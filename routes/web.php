@@ -22,6 +22,7 @@ Route::post('/messages', [MessagesController::class, 'store'])->name('messages.s
 Route::post('/send-messages', [MessagesController::class, 'sendMessages'])->name('messages.send');
 Route::get('/messages', [MessagesController::class, 'index'])->name('messages.index');
 Route::get('/overview', [OverviewController::class, 'index'])->name('overview.index');
+Route::put('/clients/{clients}/toggleStatus', [ClientsController::class, 'toggleStatus'])->name('clients.toggleStatus');
 
 Route::get('/clients/get-by-ids', function (Request $request) {
     $clientIds = $request->query('ids', []);
