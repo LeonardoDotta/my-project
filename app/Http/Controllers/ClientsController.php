@@ -59,7 +59,7 @@ class ClientsController extends Controller
     public function update(Request $request, string $id)
     {
         try {
-            $client = Client::findOrFail($id); 
+            $client = Clients::findOrFail($id); 
             $client->update($request->all());  
             return response()->json(['message' => 'Cliente atualizado com sucesso', 'client' => $client], 200);
         } catch (\Exception $e) {
@@ -78,5 +78,13 @@ class ClientsController extends Controller
         $client->delete();
 
         return response()->json(['message' => 'Cliente marcado como deletado!'], 200);
+    }
+
+    public function toggleStatus(Request $request, Clients $clients)
+    {
+        $clients->is_client = $request->input('is_client');
+        $clients->save();
+
+        return response()->json(['success' => true]);
     }
 }

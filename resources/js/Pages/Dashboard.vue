@@ -20,12 +20,11 @@ export default {
 
     <q-header elevated class="bg-primary text-white" height-hint="98">
       <q-toolbar>
-        <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
+        <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" class="q-mr-sm" style="width: 0; padding-left: 1rem;" />
 
-        <q-toolbar-title>
+        <q-toolbar-title style="padding-left: 5px;">
           Title
         </q-toolbar-title>
-
       </q-toolbar>
 
     </q-header>
@@ -34,18 +33,18 @@ export default {
       <div class="div_sidebar">
         <div class="div_buttons">
           <button onclick="location.href='clients'" class="buttons">
-            Clientes
+            <img src="/icons/people_fill.svg" alt="">
+            <div>Clientes</div>
           </button>
           <button onclick="location.href='/messages'" class="buttons">
-            Mensagens
-          </button>
-          <button onclick="location.href='/teste3'" class="buttons">
-            Teste 3
+            <img src="/icons/messages.svg" alt="">
+            <div>Mensagens</div>
           </button>
         </div>
         <div class="div_buttons">
           <button onclick="location.href='/logout'" class="buttons">
-            Logout
+            <img src="/icons/logout.svg" alt="">
+            <div>Logout</div>
           </button>
         </div>
       </div>
@@ -58,7 +57,7 @@ export default {
     <q-footer elevated class="bg-grey-8 text-white">
       <q-toolbar>
         <q-toolbar-title>
-          <div>Title</div>
+          <div>Footer</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -86,6 +85,10 @@ export default {
   margin-bottom: 1rem;
   border-radius: 10px;
   text-align: justify;
+  padding-left: 1rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .buttons:hover {
